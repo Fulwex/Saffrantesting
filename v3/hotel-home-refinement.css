@@ -1,0 +1,183 @@
+/* Focused editorial refinements for the home journey and hotel entrance. */
+.brand-home .hero-media img,.hotel-page .inner-hero-media img{object-position:center 56%}
+.brand-home .hero::before,.hotel-page .inner-hero::before{background:linear-gradient(90deg,rgba(9,18,37,.91) 0%,rgba(9,18,37,.72) 38%,rgba(9,18,37,.13) 82%),linear-gradient(0deg,rgba(9,18,37,.55),transparent 58%)}
+.brand-home .capability h3{margin-bottom:0;font-size:clamp(1.15rem,1.45vw,1.5rem);line-height:1.16;letter-spacing:-.025em}
+.brand-home .capability-main h3{font-size:clamp(1.45rem,1.9vw,2.05rem)}
+.brand-home .partners-portfolio{padding-bottom:50px}
+.brand-home .partners-portfolio .partners-head{align-items:start;gap:7%;margin-bottom:34px}
+.brand-home .partners-portfolio .partners-head>div:first-child{align-self:start}
+.brand-home .partners-portfolio .eyebrow{margin-bottom:14px}
+.brand-home .partners-portfolio h2{line-height:1.08}
+.brand-home .direction-hotel{border-top:1px solid rgba(213,183,121,.42)}
+.brand-home .direction-visual{height:535px}
+.brand-home .direction-main{inset:0 30% 0 0}
+.brand-home .direction-spa .direction-main{inset:0 0 0 30%}
+.brand-home .direction-main img{object-position:center center}
+.brand-home .direction-detail,.brand-home .direction-spa .direction-detail{width:43%;height:34%}
+.brand-home .products{padding-top:70px;padding-bottom:76px}
+.brand-home .products-head{margin-bottom:34px}
+.brand-home .product-grid{gap:20px 17px}
+.brand-home .product-card .image{height:225px}
+.brand-home .product-card.wide .image{height:285px}
+.brand-home .product-card:nth-child(4) .image,.brand-home .product-card:nth-child(7) .image{height:265px}
+.brand-home .product-meta{padding:12px 0 13px}
+.brand-home .product-meta h3{font-size:clamp(1.1rem,1.25vw,1.3rem);line-height:1.15}
+.brand-home .products-action{margin-top:32px}
+@media(max-width:1050px){
+  .brand-home .direction-visual{height:475px}
+  .brand-home .direction-main{inset:0 27% 0 0}
+  .brand-home .direction-spa .direction-main{inset:0 0 0 27%}
+}
+@media(max-width:760px){
+  .brand-home .hero-media img,.hotel-page .inner-hero-media img{object-position:61% center}
+  .brand-home .capability h3{font-size:clamp(1rem,4.2vw,1.25rem)}
+  .brand-home .capability-main h3{font-size:clamp(1.35rem,5vw,1.75rem)}
+  .brand-home .partners-portfolio{padding-top:55px;padding-bottom:38px}
+  .brand-home .partners-portfolio .partners-head{gap:23px;margin-bottom:25px}
+  .brand-home .direction-hotel{padding-top:55px}
+  .brand-home .direction-visual{height:clamp(380px,105vw,440px)}
+  .brand-home .direction-main{inset:0 27% 0 0}
+  .brand-home .direction-spa .direction-main{inset:0 0 0 27%}
+  .brand-home .direction-detail,.brand-home .direction-spa .direction-detail{width:46%;height:31%}
+  .brand-home .products{padding-top:56px;padding-bottom:62px}
+  .brand-home .products-head{margin-bottom:29px}
+  .brand-home .product-grid{gap:19px 12px}
+  .brand-home .product-card .image,.brand-home .product-card.wide .image,.brand-home .product-card:nth-child(4) .image,.brand-home .product-card:nth-child(7) .image{height:215px}
+  .brand-home .product-meta h3{font-size:1.13rem}
+}
+
+/* Home composition: immersive entrance, readable compact proof, ordered catalog. */
+.brand-home .hero{min-height:100svh}
+.brand-home .hero-media img{object-position:center 52%}
+.brand-home .hero::before{background:linear-gradient(90deg,rgba(9,18,37,.92) 0%,rgba(9,18,37,.76) 31%,rgba(9,18,37,.12) 76%),linear-gradient(0deg,rgba(9,18,37,.45),transparent 58%)}
+.brand-home .capability-main .capability-media{object-position:center 58%}
+.brand-home .capability-accent .capability-media{object-position:center 63%}
+.brand-home .partners-portfolio{--work-width:clamp(138px,11.1vw,156px)}
+.brand-home .partner-work-caption{top:9px;left:9px;max-width:calc(100% - 18px)}
+.brand-home .partner-work-caption-tr,.brand-home .partner-work-caption-br{left:auto;right:9px}
+.brand-home .partner-work-caption-bl,.brand-home .partner-work-caption-br{top:auto;bottom:9px}
+.brand-home .partner-work-location,.brand-home .partner-work-caption strong{font-size:clamp(.83rem,1.16vw,1rem);line-height:1.08;white-space:normal;text-wrap:balance}
+.brand-home .partner-work[data-partner="sunray"] .partner-work-location,.brand-home .partner-work[data-partner="trysyny"] .partner-work-location,.brand-home .partner-work[data-partner="berezino"] .partner-work-location,.brand-home .partner-work[data-partner="green-hills"] .partner-work-location{font-size:clamp(.7rem,.95vw,.85rem)}
+.brand-home .direction,.brand-home .direction-grid{min-height:750px}
+.brand-home .direction-visual{height:625px}
+.brand-home .product-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 18px;align-items:stretch}
+.brand-home .product-card,.brand-home .product-card.wide,.brand-home .product-card.slim{grid-column:span 1;display:flex;flex-direction:column;min-width:0}
+.brand-home .product-card .image,.brand-home .product-card.wide .image,.brand-home .product-card:nth-child(4) .image,.brand-home .product-card:nth-child(7) .image{height:auto;aspect-ratio:4/3;flex:none}
+.brand-home .product-card img{width:100%;height:100%;object-fit:cover}
+.brand-home .product-card .product-meta{flex:1;display:flex;gap:12px;align-items:center;min-height:50px}
+.brand-home .product-meta h3{font-size:clamp(1.05rem,1.22vw,1.25rem);line-height:1.2}
+.brand-home .proposal{padding:90px 0 100px}
+.brand-home .proposal-cta{position:relative;z-index:1;max-width:1120px}
+.brand-home .proposal-cta h2{max-width:790px;margin:20px 0 19px;font-size:clamp(2.25rem,3.6vw,3.5rem);line-height:1.12}
+.brand-home .proposal-cta p{max-width:570px;margin:0 0 30px;color:rgba(255,255,255,.8);font-size:1rem;line-height:1.65}
+.brand-home .proposal-cta .btn{width:max-content}
+@media(max-width:1050px){
+  .brand-home .direction,.brand-home .direction-grid{min-height:690px}
+  .brand-home .direction-visual{height:570px}
+  .brand-home .product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  .brand-home .hero{min-height:100svh}
+  .brand-home .hero-media img{object-position:72% center}
+  .brand-home .hero::before{background:linear-gradient(90deg,rgba(9,18,37,.84),rgba(9,18,37,.45)),linear-gradient(0deg,rgba(9,18,37,.56),transparent 70%)}
+  .brand-home .partners-portfolio{--work-width:84px}
+  .brand-home .partner-work-caption{top:5px;left:5px;max-width:calc(100% - 10px)}
+  .brand-home .partner-work-caption-tr,.brand-home .partner-work-caption-br{left:auto;right:5px}
+  .brand-home .partner-work-caption-bl,.brand-home .partner-work-caption-br{top:auto;bottom:5px}
+  .brand-home .partner-work-location,.brand-home .partner-work-caption strong{font-size:.58rem;line-height:1.08}
+  .brand-home .partner-work[data-partner="sunray"] .partner-work-location,.brand-home .partner-work[data-partner="trysyny"] .partner-work-location,.brand-home .partner-work[data-partner="berezino"] .partner-work-location,.brand-home .partner-work[data-partner="green-hills"] .partner-work-location{font-size:.52rem}
+  .brand-home .direction,.brand-home .direction-grid{min-height:0}
+  .brand-home .direction{padding-top:74px;padding-bottom:82px}
+  .brand-home .direction-visual{height:clamp(440px,125vw,520px)}
+  .brand-home .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}
+  .brand-home .product-card .image,.brand-home .product-card.wide .image,.brand-home .product-card:nth-child(4) .image,.brand-home .product-card:nth-child(7) .image{height:auto;aspect-ratio:4/5}
+  .brand-home .product-card .product-meta{min-height:50px;padding:9px 0}
+  .brand-home .product-meta h3{font-size:clamp(.92rem,4vw,1.1rem)}
+  .brand-home .proposal{padding:74px 0 80px}
+  .brand-home .proposal-cta h2{font-size:clamp(2rem,8vw,2.8rem)}
+  .brand-home .proposal-cta .btn{width:100%}
+}
+
+/* One tactile client reel, with captions outside the embroidery photos. */
+.brand-home .partner-carousel{display:grid;grid-template-columns:42px minmax(0,1fr) 42px;align-items:center;gap:8px;position:relative;z-index:2}
+.brand-home .partner-strips{min-width:0}
+.brand-home .partners-portfolio{--work-width:clamp(207px,16.7vw,234px)}
+.brand-home .partner-track-group{gap:16px;padding-right:16px}
+.brand-home .partner-work{aspect-ratio:auto;min-height:0}
+.brand-home .partner-work-photo{position:relative;width:100%;aspect-ratio:1}
+.brand-home .partner-work-caption,.brand-home .partner-work-caption-tr,.brand-home .partner-work-caption-br,.brand-home .partner-work-caption-bl,.brand-home .partner-work-caption-light{position:relative;inset:auto;max-width:none;min-height:34px;display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:6px;padding:8px 0 0;border-bottom:1px solid rgba(213,183,121,.52);text-align:left}
+.brand-home .partner-work-location,.brand-home .partner-work-caption strong,.brand-home .partner-work[data-partner="sunray"] .partner-work-location,.brand-home .partner-work[data-partner="trysyny"] .partner-work-location,.brand-home .partner-work[data-partner="berezino"] .partner-work-location,.brand-home .partner-work[data-partner="green-hills"] .partner-work-location{color:#f4efe8;font-family:var(--sans,Arial,sans-serif);font-size:.77rem;font-style:normal;font-weight:600;line-height:1.15;letter-spacing:.025em;text-shadow:none;white-space:normal}
+.brand-home .partner-work-caption strong{font-weight:700}
+.brand-home .partner-work-caption strong + .partner-work-location{font-size:.77rem}
+.brand-home .partner-arrow{width:40px;height:40px;display:grid;place-items:center;border:1px solid rgba(213,183,121,.5);border-radius:50%;background:rgba(16,27,52,.7);color:#e3d5b9;font:normal 1.35rem/1 Arial,sans-serif;cursor:pointer;transition:background .2s,border-color .2s}
+.brand-home .partner-arrow:hover,.brand-home .partner-arrow:focus-visible{background:#d5b779;color:#101b34;border-color:#d5b779}
+.brand-home .capability-texture .capability-media{object-position:center 48%}
+.brand-home .direction-hotel .direction-main img{object-position:center 38%}
+.brand-home .direction-hotel .direction-third img{object-position:center 71%}
+.brand-home .direction-hotel .direction-detail{width:35%;height:53%}
+.brand-home .product-card:nth-child(2) img{object-position:65% center}
+.brand-home .product-card:nth-child(3) img{object-position:center 39%}
+.brand-home .product-card:nth-child(7) img{object-position:center 58%}
+@media(max-width:760px){
+  .brand-home .partner-carousel{grid-template-columns:25px minmax(0,1fr) 25px;gap:2px}
+  .brand-home .partners-portfolio{--work-width:126px}
+  .brand-home .partner-track-group{gap:9px;padding-right:9px}
+  .brand-home .partner-work-caption,.brand-home .partner-work-caption-tr,.brand-home .partner-work-caption-br,.brand-home .partner-work-caption-bl{min-height:38px;padding:6px 0 0}
+  .brand-home .partner-work-location,.brand-home .partner-work-caption strong,.brand-home .partner-work[data-partner="sunray"] .partner-work-location,.brand-home .partner-work[data-partner="trysyny"] .partner-work-location,.brand-home .partner-work[data-partner="berezino"] .partner-work-location,.brand-home .partner-work[data-partner="green-hills"] .partner-work-location{font-size:.62rem}
+  .brand-home .partner-work-caption strong + .partner-work-location{font-size:.62rem}
+  .brand-home .partner-arrow{width:24px;height:32px;border:0;background:transparent;color:#e3d5b9;font-size:1.1rem}
+  .brand-home .direction-hotel .direction-main img{object-position:center 44%}
+  .brand-home .direction-hotel .direction-detail{width:37%;height:47%}
+}
+
+/* Text hierarchy and a quieter, readable client caption. */
+.brand-home .hero #hero-title{max-width:760px;margin-bottom:24px}
+.brand-home .hero #hero-title span:first-child{font-size:clamp(2.8rem,4.9vw,5.3rem);line-height:1.01}
+.brand-home .hero #hero-title span:last-child{margin:8px 0 0;padding:0;border:0;font-size:clamp(2.5rem,4.25vw,4.5rem);line-height:1.04}
+.brand-home .hero-lead{max-width:570px;display:grid;gap:10px;line-height:1.5}
+.brand-home .hero-lead strong{color:#fff;font-weight:600}
+.brand-home .hero-lead span{max-width:495px;color:#d6dbe4}
+.brand-home .hero-actions{margin-top:31px}
+.brand-home .about-intro{display:grid;gap:12px;align-self:start;line-height:1.4}
+.brand-home .about-intro strong{font-weight:600;color:#152341}
+.brand-home .about-intro span{font-size:.92em;font-weight:400;color:#526072}
+.brand-home .capability-accent .capability-media{object-position:center 50%}
+
+/* Client reel: a quiet editorial label and tactile controls. */
+.brand-home .partner-carousel{grid-template-columns:50px minmax(0,1fr) 50px;gap:12px}
+.brand-home .partner-arrow{width:48px;height:48px;border:1px solid rgba(221,199,155,.85);background:rgba(241,236,224,.94);color:#172743;box-shadow:0 7px 22px #07132655;font-size:1.35rem;transition:transform .2s,background .2s,box-shadow .2s}
+.brand-home .partner-arrow:hover,.brand-home .partner-arrow:focus-visible{transform:scale(1.06);background:#fff7e8;color:#172743;box-shadow:0 9px 25px #07132680}
+.brand-home .partner-work-caption,.brand-home .partner-work-caption-tr,.brand-home .partner-work-caption-br,.brand-home .partner-work-caption-bl,.brand-home .partner-work-caption-light{min-height:42px;margin-top:7px;padding:9px 0 4px;border:0;border-top:1px solid rgba(216,191,143,.55);background:transparent;box-shadow:none}
+.brand-home .partner-work-caption::before{content:"";display:block;width:5px;height:5px;margin-right:5px;border:1px solid #d8bf8f;transform:rotate(45deg);flex:none}
+.brand-home .partner-work-location,.brand-home .partner-work-caption strong,.brand-home .partner-work[data-partner="sunray"] .partner-work-location,.brand-home .partner-work[data-partner="trysyny"] .partner-work-location,.brand-home .partner-work[data-partner="berezino"] .partner-work-location,.brand-home .partner-work[data-partner="green-hills"] .partner-work-location{font-family:var(--serif,Georgia,serif);font-size:1.04rem;font-weight:500;letter-spacing:.025em;line-height:1.1;color:#f5f0e6}
+.brand-home .partner-work-caption strong + .partner-work-location{font-size:1.04rem}
+.brand-home .capability-accent .capability-media{object-position:center 60%}
+.brand-home .direction-hotel .direction-third img{object-position:60% center}
+@media(max-width:760px){
+  .brand-home .partner-carousel{grid-template-columns:36px minmax(0,1fr) 36px;gap:3px}
+  .brand-home .partner-arrow{width:34px;height:34px;border:1px solid rgba(221,199,155,.8);background:rgba(241,236,224,.93);color:#172743;font-size:1.08rem}
+  .brand-home .partner-work-caption,.brand-home .partner-work-caption-tr,.brand-home .partner-work-caption-br,.brand-home .partner-work-caption-bl{min-height:38px;margin-top:4px;padding:7px 0 3px}
+  .brand-home .partner-work-location,.brand-home .partner-work-caption strong,.brand-home .partner-work[data-partner="sunray"] .partner-work-location,.brand-home .partner-work[data-partner="trysyny"] .partner-work-location,.brand-home .partner-work[data-partner="berezino"] .partner-work-location,.brand-home .partner-work[data-partner="green-hills"] .partner-work-location{font-size:.82rem}
+  .brand-home .partner-work-caption strong + .partner-work-location{font-size:.82rem}
+}
+.brand-home .direction-hotel .direction-detail{right:7%;width:42%;height:53%;z-index:3}
+.brand-home .direction-hotel .direction-detail img{object-position:center 47%}
+.brand-home .direction-hotel .direction-third{border-color:#111b34}
+.brand-home .direction-hotel .direction-third img{object-position:center 57%}
+.brand-home .partner-work-caption,.brand-home .partner-work-caption-tr,.brand-home .partner-work-caption-br,.brand-home .partner-work-caption-bl,.brand-home .partner-work-caption-light{min-height:42px;padding:7px 10px 7px 13px;background:#e9e2d6;border:0;justify-content:flex-start;align-items:center;position:relative}
+.brand-home .partner-work-caption::before{content:"";position:absolute;left:0;top:9px;bottom:9px;width:2px;background:#a37b43}
+.brand-home .partner-work-location,.brand-home .partner-work-caption strong,.brand-home .partner-work-caption strong + .partner-work-location,.brand-home .partner-work[data-partner="sunray"] .partner-work-location,.brand-home .partner-work[data-partner="trysyny"] .partner-work-location,.brand-home .partner-work[data-partner="berezino"] .partner-work-location,.brand-home .partner-work[data-partner="green-hills"] .partner-work-location{color:#14213d;font-family:var(--serif);font-size:clamp(1rem,1.2vw,1.17rem);font-style:normal;font-weight:700;letter-spacing:0;text-shadow:none;line-height:1.05}
+.brand-home .partner-work-caption strong{font-style:italic}
+@media(max-width:760px){
+  .brand-home .hero #hero-title{margin-bottom:22px}
+  .brand-home .hero #hero-title span:first-child{font-size:clamp(2.5rem,9.2vw,3.6rem)}
+  .brand-home .hero #hero-title span:last-child{font-size:clamp(2.1rem,7.2vw,3.2rem);margin-top:6px}
+  .brand-home .hero-lead{gap:8px;line-height:1.4}
+  .brand-home .hero-lead span{font-size:.94em}
+  .brand-home .about-intro{gap:8px}
+  .brand-home .direction-hotel .direction-detail{right:4%;width:45%;height:48%}
+  .brand-home .partner-work-caption,.brand-home .partner-work-caption-tr,.brand-home .partner-work-caption-br,.brand-home .partner-work-caption-bl{min-height:42px;padding:5px 5px 5px 9px}
+  .brand-home .partner-work-caption::before{top:8px;bottom:8px;width:1px}
+  .brand-home .partner-work-location,.brand-home .partner-work-caption strong,.brand-home .partner-work-caption strong + .partner-work-location,.brand-home .partner-work[data-partner="sunray"] .partner-work-location,.brand-home .partner-work[data-partner="trysyny"] .partner-work-location,.brand-home .partner-work[data-partner="berezino"] .partner-work-location,.brand-home .partner-work[data-partner="green-hills"] .partner-work-location{font-size:.86rem}
+}
+

@@ -1,0 +1,217 @@
+/* A tighter editorial scale. Keep controls large enough to use on touch screens. */
+@media (min-width: 761px) {
+  body{font-size:15px}
+  .container{width:min(1120px,calc(100% - 76px))}
+  .nav-wrap{height:72px}
+  .logo{font-size:1.2rem}
+  .nav-links>a,.product-menu summary{font-size:12px}
+  .btn{min-height:44px;padding-inline:18px;font-size:11px}
+  .eyebrow{margin-bottom:15px}
+  h2,.intro h2,.story-copy h2,.care-copy h2,.knowledge-head h2,.section-head h2,.decision h2,.related-head h2,.cta h2,.proposal-bottom h2{font-size:clamp(2.2rem,3vw,3.1rem)}
+  .brand-home .hero{min-height:78svh}
+  .brand-home .hero .container{width:min(1280px,calc(100% - 88px))}
+  .brand-home .hero-grid{padding-top:130px;padding-bottom:55px}
+  .brand-home .hero h1 span:first-child{font-size:clamp(3rem,4.4vw,4.9rem)}
+  .brand-home .hero h1 span:last-child{font-size:clamp(2.3rem,3.4vw,3.6rem);margin-top:22px}
+  .brand-home .hero-lead{font-size:clamp(1rem,1.35vw,1.22rem)}
+  .brand-home .hero-actions{margin-top:38px}
+  .brand-home .about{padding:70px 0 80px}
+  .brand-home .about-manifesto{margin-bottom:50px;gap:50px;align-items:start}
+  .brand-home .about-manifesto>div:first-child{transform:translateY(-8px)}
+  .brand-home .about-manifesto h2{font-size:clamp(2rem,2.7vw,2.85rem)}
+  .brand-home .about-intro{max-width:440px;margin:0;padding:7px 0 7px 24px;color:#24314b;font-size:clamp(1.08rem,1.25vw,1.2rem);font-weight:500;line-height:1.62}
+  .brand-home .direction-copy h2,.brand-home .products-head h2,.brand-home .proposal-head h2{font-size:clamp(2.2rem,3vw,3.25rem)}
+  .brand-home .about-stage,.brand-home .about-years{min-height:475px}
+  .brand-home .about-years strong{font-size:7.5rem}
+  .brand-home .capability{padding:34px}
+  .brand-home .capability h3{font-size:clamp(1.2rem,1.4vw,1.45rem)}
+  .brand-home .capability-main h3{font-size:clamp(1.6rem,1.9vw,1.95rem)}
+  .brand-home .capability p{font-size:.76rem}
+  .partners-portfolio{--work-width:clamp(220px,17.8vw,250px);padding:65px 0 33px}
+  .partners-portfolio h2{font-size:clamp(2.2rem,3vw,3.25rem)}
+  .partner-strips{gap:16px}
+  .partners-portfolio .partners-head{margin-bottom:30px}
+  .partner-work-caption strong,.partner-work-location{font-size:1.6rem}
+  .brand-home .direction,.brand-home .direction-grid{min-height:560px}
+  .brand-home .direction-visual{height:440px}
+  .brand-home .direction-list{margin:27px 0 30px}
+  .brand-home .products{padding:90px 0 100px}
+  .brand-home .products-head{margin-bottom:45px}
+  .brand-home .product-card .image{height:270px}
+  .brand-home .product-card.wide .image{height:320px}
+  .brand-home .product-card:nth-child(4) .image,.brand-home .product-card:nth-child(7) .image{height:310px}
+  .brand-home .product-meta{padding:13px 0}
+  .brand-home .products-action{margin-top:42px}
+  .brand-home .proposal{padding:85px 0 95px}
+  .brand-home .proposal-head{padding-bottom:42px}
+  .brand-home .proposal-form{margin-top:42px;gap:28px 38px}
+  .catalog-hero,.product-hero{min-height:60svh}
+  .hero-content{padding-top:130px;padding-bottom:55px}
+  .hero-content h1,.inner-hero h1,.cart-hero h1,.proposal-hero h1{font-size:clamp(2.75rem,4vw,3.5rem)}
+  .catalog-intro{padding:105px 0 38px}
+  .catalog-intro h1{font-size:clamp(2.8rem,3.9vw,4.1rem)}
+  .catalog{padding:12px 0 95px}
+  .catalog-grid{gap:16px}
+  .catalog-card{min-height:310px;padding:22px}
+  .catalog-card h2{font-size:clamp(1.65rem,2.1vw,2.3rem)}
+  .product-intro,.decision,.related{padding:80px 0}
+  .tiers{padding:85px 0 95px}
+  .tier-photo{height:195px}
+  .tier-body{min-height:0;padding:20px}
+  .tier-body h3{font-size:clamp(1.5rem,1.8vw,1.8rem)}
+  .section-head{margin-bottom:43px}
+  .decision-item{padding:19px 0}
+  .related-card img{height:200px}
+  .cta{padding:82px 0}
+  .suggestion-card{flex-basis:250px}
+  .suggestion-card img{height:180px}
+  .about-hero-grid{height:690px;min-height:0}
+  .about-hero h1{font-size:clamp(3.1rem,4vw,3.8rem)}
+  .about-hero-kicker{margin-bottom:20px}
+  .about-hero-note{font-size:.94rem;margin-bottom:23px}
+  .about-hero-foot{margin-top:26px}
+  .about-facts{padding:23px 0}
+  .about-statement,.about-geography,.about-values,.about-craft,.about-range,.about-next{padding-top:58px;padding-bottom:62px}
+  .about-statement-lead h2,.about-geography-head h2,.about-values-intro h2{font-size:clamp(2.2rem,3vw,2.7rem)}
+  .about-geography-head{margin-bottom:25px}
+  .about-places>div{min-height:95px}
+  .about-craft-media{width:min(100%,280px)}
+  .about-values-list article{padding:13px 0 15px}
+  .about-values-list h3{font-size:clamp(1.5rem,1.8vw,1.9rem)}
+  .about-range-grid img{height:210px}
+  .cart-hero{min-height:310px;padding:125px 0 55px}
+  .cart-main{padding:75px 0 90px}
+  .cart-layout{gap:42px}
+  .cart-line{grid-template-columns:86px 1fr auto;gap:16px;padding:17px 0}
+  .cart-line img,.cart-thumb{width:86px;height:86px}
+  .quote-panel{padding:28px}
+  .proposal-hero{padding:135px 0 70px}
+  .proposal-content{padding:78px 0 85px}
+  .proposal-aside h2{font-size:clamp(2.8rem,3.9vw,4.3rem)}
+  .proposal-page .quote-form{padding:clamp(26px,3vw,40px)}
+  .proposal-page .quote-form h2{font-size:clamp(2.3rem,3vw,3.2rem)}
+  footer{padding:52px 0 25px}
+  .footer-grid{gap:45px;padding-bottom:36px}
+}
+@media (max-width: 760px) {
+  .proposal-layout{grid-template-columns:minmax(0,1fr)}
+  .proposal-layout>*,.quote-form,.quote-files,.quote-files input{min-width:0;max-width:100%}
+  .brand-home .hero{min-height:76svh}
+  .brand-home .hero .container{width:calc(100% - 38px)}
+  .brand-home .hero-grid{padding-top:108px;padding-bottom:38px}
+  .brand-home .hero h1 span:first-child{font-size:clamp(2.55rem,10.4vw,4.65rem)}
+  .brand-home .hero h1 span:last-child{font-size:clamp(1.7rem,6.2vw,2.6rem)}
+  .brand-home .about{padding-top:58px;padding-bottom:70px}
+  .brand-home .about-manifesto{margin-bottom:44px}
+  .brand-home .about-manifesto h2{font-size:clamp(1.75rem,6.2vw,2.35rem)}
+  .brand-home .about-intro{color:#24314b;font-size:1.04rem;font-weight:500;line-height:1.62}
+  .partners-portfolio{--work-width:min(132px,calc((100vw - 45px)/3))}
+  .brand-home .direction-copy h2,.brand-home .products-head h2,.brand-home .proposal-head h2{font-size:clamp(1.9rem,6.8vw,2.6rem)}
+  .brand-home .about-years{min-height:250px}
+  .brand-home .capability{min-height:185px}
+  .brand-home .capability-main{min-height:235px}
+  .brand-home .capability h3{font-size:clamp(1.05rem,4vw,1.35rem)}
+  .brand-home .capability-main h3{font-size:clamp(1.5rem,5vw,2rem)}
+  .brand-home .capability p{font-size:.78rem}
+  .brand-home .products{padding:70px 0 76px}
+  .brand-home .product-card .image,.brand-home .product-card.wide .image{height:255px}
+  .brand-home .proposal{padding:68px 0 76px}
+  .catalog-hero,.product-hero{min-height:62svh}
+  .hero-content h1,.inner-hero h1,.cart-hero h1,.proposal-hero h1{font-size:clamp(2.5rem,8.1vw,3.8rem)}
+  .catalog-card{min-height:345px}
+  .catalog-intro,.product-intro,.decision,.related{padding-top:64px;padding-bottom:64px}
+  .tier-photo{height:245px}
+  .tier-body{min-height:315px}
+  .tiers{padding:70px 0 80px}
+  .suggestion-card{flex-basis:235px}
+  .suggestion-card img{height:155px}
+  .about-statement,.about-geography,.about-craft,.about-values,.about-range{padding-top:62px;padding-bottom:66px}
+  .about-statement-lead h2,.about-geography-head h2,.about-values-intro h2{font-size:clamp(2.75rem,8.5vw,3.8rem)}
+  .cart-main{padding:65px 0 80px}
+  .proposal-hero{padding-top:130px;padding-bottom:65px}
+  .proposal-content{padding-top:68px;padding-bottom:72px}
+  .btn,.quote-fields input,.quote-fields select,.quote-notes textarea,.config-label select{min-height:44px}
+}
+@media (max-width: 400px){.brand-home .capability-accent h3{font-size:.94rem}}
+
+/* Shared spatial rhythm for the category and editorial page families. */
+@media (min-width: 761px) {
+  :root{--saffran-section-space:72px;--saffran-card-gap:16px}
+  .inner-hero{min-height:65svh}
+  .hero-inner{padding-top:125px;padding-bottom:52px}
+  .intro,.expertise,.spa-page .expertise,.knowledge,.care,.faq,.product-system,.brand-band,.final-cta{padding-top:var(--saffran-section-space);padding-bottom:var(--saffran-section-space)}
+  .expertise,.spa-page .expertise{padding-inline:max(38px,calc((100vw - 1120px)/2))}
+  .story-row{margin-bottom:var(--saffran-card-gap)}
+  .story-image{min-height:400px}
+  .story-copy{padding:clamp(34px,4vw,52px)}
+  .story-copy h2,.knowledge-head h2{font-size:clamp(2rem,3vw,2.6rem)}
+  .story-row-turnover .story-image{max-height:460px}
+  .product-grid{gap:var(--saffran-card-gap)}
+  .product-tile,.product-tile.wide{min-height:330px;padding:25px}
+  .product-tile h3{font-size:clamp(1.3rem,1.7vw,1.65rem)}
+  .section-head{margin-bottom:34px;gap:45px}
+  .knowledge-head{margin-bottom:35px}
+  .term{min-height:230px;padding:27px 23px}
+  .term h3{font-size:1.5rem;margin-top:27px}
+  .care-layout{gap:clamp(38px,5vw,72px)}
+  .care-visual{height:540px}
+  .care-steps{margin-top:28px}
+  .care-step{padding:17px 0}
+  .care-step h3{font-size:1.45rem}
+  .brand-photo{height:280px}
+  .brand-copy h2{font-size:clamp(2rem,3vw,2.6rem)}
+  .about-hero{padding-top:80px}
+  .about-hero-film{max-width:100%;height:100%}
+  .about-range-grid img{height:190px}
+  .about-geography-head h2,.about-range-head h2{line-height:1.13}
+  .quote-fields input,.quote-fields select,.quote-notes textarea{font-size:15px}
+}
+
+@media (max-width: 760px) {
+  :root{--saffran-mobile-space:52px}
+  .brand-home .hero{min-height:70svh}
+  .brand-home .hero-grid{padding-top:100px;padding-bottom:32px}
+  .brand-home .direction{padding:var(--saffran-mobile-space) 0}
+  .brand-home .direction-grid{gap:27px}
+  .brand-home .direction-visual{height:355px}
+  .brand-home .direction-copy h2{font-size:clamp(2.1rem,8vw,3.1rem);line-height:1.04}
+  .brand-home .direction-list{margin:20px 0 24px}
+  .brand-home .product-card .image,.brand-home .product-card.wide .image{height:225px}
+  .catalog-hero,.product-hero,.inner-hero{min-height:58svh}
+  .hero-inner,.hero-content{padding-top:110px;padding-bottom:42px}
+  .hero-content h1,.inner-hero h1,.cart-hero h1,.proposal-hero h1{font-size:clamp(2.35rem,8vw,3.2rem);line-height:1.08}
+  .catalog-intro,.product-intro,.decision,.related,.tiers,.intro,.expertise,.spa-page .expertise,.knowledge,.care,.faq,.product-system,.brand-band,.final-cta{padding-top:var(--saffran-mobile-space);padding-bottom:var(--saffran-mobile-space)}
+  .expertise,.spa-page .expertise{padding-inline:19px}
+  .story-row{margin-bottom:15px}
+  .story-image{min-height:0;height:270px}
+  .hotel-page .story-row-turnover .story-image{height:320px}
+  .story-copy,.story-row-turnover .story-copy{padding:30px 24px}
+  .story-copy h2,.knowledge-head h2{font-size:clamp(2rem,7.5vw,2.8rem);line-height:1.08}
+  .product-tile,.product-tile.wide{min-height:225px;padding:23px}
+  .product-tile h3{font-size:1.45rem}
+  .section-head,.knowledge-head{margin-bottom:26px}
+  .term{min-height:0;padding:25px 23px}
+  .term h3{font-size:1.55rem;margin-top:19px}
+  .care-visual{height:350px}
+  .care-steps{margin-top:23px}
+  .care-step{padding:18px 0}
+  .care-step h3{font-size:1.45rem}
+  .catalog-page .catalog-card,.catalog-page .catalog-card.wide{min-height:220px;padding:17px}
+  .catalog-page .catalog-card h2{font-size:clamp(1.45rem,6.2vw,2rem)}
+  .tier-photo{height:205px}
+  .tier-body{min-height:0;padding:18px}
+  .tier-body h3{font-size:1.45rem}
+  .related-card img{height:220px}
+  .suggestion-card{flex-basis:215px;grid-template-rows:145px auto}
+  .suggestion-card img{height:145px}
+  .suggestion-card span{font-size:1.3rem}
+  .about-statement,.about-geography,.about-values,.about-craft,.about-range{padding-top:var(--saffran-mobile-space);padding-bottom:var(--saffran-mobile-space)}
+  .about-statement-lead h2,.about-geography-head h2,.about-values-intro h2{font-size:clamp(2.1rem,7vw,2.9rem);line-height:1.12}
+  .about-range-grid img{height:230px}
+  .proposal-hero{padding-top:110px;padding-bottom:45px}
+  .proposal-content,.cart-main{padding-top:var(--saffran-mobile-space);padding-bottom:var(--saffran-mobile-space)}
+}
+@media (min-width: 761px) and (max-width: 1024px) {
+  .about-hero-grid{height:auto;min-height:690px}
+  .about-hero-film{height:690px}
+}

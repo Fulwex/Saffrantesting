@@ -1,0 +1,9 @@
+node_modules/
+.vercel/
+.env
+.env.*
+vercel-migration/source-v3/
+vercel-migration/public/
+vercel-migration/qa-*.png
+vercel-migration/seo-migration.json
+*.log

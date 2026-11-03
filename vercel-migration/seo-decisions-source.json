@@ -1,0 +1,884 @@
+{
+  "page": {
+    "47": {
+      "action": "gone"
+    },
+    "48": {
+      "action": "redirect",
+      "target": "/about/"
+    },
+    "49": {
+      "action": "redirect",
+      "target": "/#footer-contacts"
+    },
+    "50": {
+      "action": "gone"
+    },
+    "51": {
+      "action": "gone"
+    },
+    "258": {
+      "action": "gone"
+    },
+    "320": {
+      "action": "gone"
+    },
+    "321": {
+      "action": "gone"
+    },
+    "322": {
+      "action": "gone"
+    },
+    "323": {
+      "action": "gone"
+    },
+    "328": {
+      "action": "gone"
+    },
+    "329": {
+      "action": "gone"
+    },
+    "330": {
+      "action": "gone"
+    },
+    "332": {
+      "action": "gone"
+    },
+    "663": {
+      "action": "redirect",
+      "target": "/products/"
+    },
+    "664": {
+      "action": "gone"
+    },
+    "665": {
+      "action": "gone"
+    },
+    "666": {
+      "action": "gone"
+    },
+    "667": {
+      "action": "gone"
+    },
+    "668": {
+      "action": "gone"
+    },
+    "333": {
+      "action": "gone"
+    },
+    "334": {
+      "action": "gone"
+    },
+    "342": {
+      "action": "gone"
+    },
+    "343": {
+      "action": "gone"
+    },
+    "344": {
+      "action": "gone"
+    },
+    "345": {
+      "action": "gone"
+    },
+    "346": {
+      "action": "gone"
+    },
+    "347": {
+      "action": "gone"
+    },
+    "348": {
+      "action": "gone"
+    },
+    "356": {
+      "action": "gone"
+    },
+    "358": {
+      "action": "gone"
+    },
+    "359": {
+      "action": "gone"
+    },
+    "360": {
+      "action": "gone"
+    },
+    "361": {
+      "action": "gone"
+    },
+    "366": {
+      "action": "gone"
+    },
+    "367": {
+      "action": "gone"
+    },
+    "368": {
+      "action": "gone"
+    },
+    "371": {
+      "action": "gone"
+    },
+    "376": {
+      "action": "gone"
+    },
+    "379": {
+      "action": "gone"
+    },
+    "2": {
+      "action": "gone"
+    },
+    "3": {
+      "action": "review"
+    },
+    "8": {
+      "action": "redirect",
+      "target": "/products/"
+    },
+    "9": {
+      "action": "gone"
+    },
+    "10": {
+      "action": "gone"
+    },
+    "11": {
+      "action": "gone"
+    },
+    "381": {
+      "action": "gone"
+    },
+    "385": {
+      "action": "gone"
+    },
+    "387": {
+      "action": "gone"
+    },
+    "478": {
+      "action": "gone"
+    },
+    "481": {
+      "action": "gone"
+    },
+    "502": {
+      "action": "gone"
+    },
+    "508": {
+      "action": "gone"
+    },
+    "510": {
+      "action": "gone"
+    },
+    "560": {
+      "action": "gone"
+    },
+    "564": {
+      "action": "gone"
+    },
+    "584": {
+      "action": "gone"
+    },
+    "608": {
+      "action": "gone"
+    },
+    "610": {
+      "action": "gone"
+    },
+    "614": {
+      "action": "gone"
+    },
+    "13": {
+      "action": "gone"
+    },
+    "684": {
+      "action": "redirect",
+      "target": "/about/"
+    },
+    "686": {
+      "action": "gone"
+    },
+    "688": {
+      "action": "review"
+    },
+    "690": {
+      "action": "redirect",
+      "target": "/#footer-contacts"
+    },
+    "708": {
+      "action": "redirect",
+      "target": "/proposal/"
+    },
+    "711": {
+      "action": "redirect",
+      "target": "/about/"
+    },
+    "715": {
+      "action": "gone"
+    },
+    "717": {
+      "action": "redirect",
+      "target": "/hotel-textile/"
+    },
+    "719": {
+      "action": "redirect",
+      "target": "/proposal/"
+    },
+    "740": {
+      "action": "gone"
+    },
+    "742": {
+      "action": "gone"
+    },
+    "744": {
+      "action": "redirect",
+      "target": "/hotel-textile/"
+    },
+    "748": {
+      "action": "redirect",
+      "target": "/proposal/"
+    },
+    "850": {
+      "action": "gone"
+    },
+    "862": {
+      "action": "gone"
+    },
+    "867": {
+      "action": "gone"
+    },
+    "1037": {
+      "action": "gone"
+    },
+    "1065": {
+      "action": "gone"
+    },
+    "1209": {
+      "action": "redirect",
+      "target": "/proposal/"
+    },
+    "12": {
+      "action": "gone"
+    },
+    "2523": {
+      "action": "gone"
+    }
+  },
+  "post": {
+    "2135": {
+      "action": "gone"
+    },
+    "2185": {
+      "action": "redirect",
+      "target": "/product-bed-linen/"
+    },
+    "2190": {
+      "action": "gone"
+    },
+    "2414": {
+      "action": "redirect",
+      "target": "/product-slippers/"
+    },
+    "2417": {
+      "action": "redirect",
+      "target": "/product-slippers/"
+    },
+    "2420": {
+      "action": "redirect",
+      "target": "/product-towels/"
+    },
+    "2540": {
+      "action": "redirect",
+      "target": "/product-robes/"
+    },
+    "2542": {
+      "action": "redirect",
+      "target": "/product-pillows/"
+    },
+    "2544": {
+      "action": "redirect",
+      "target": "/product-duvets/"
+    },
+    "2546": {
+      "action": "redirect",
+      "target": "/product-slippers/"
+    },
+    "2585": {
+      "action": "redirect",
+      "target": "/product-pillows/"
+    },
+    "2587": {
+      "action": "redirect",
+      "target": "/product-table-textiles/"
+    },
+    "2590": {
+      "action": "redirect",
+      "target": "/product-table-textiles/"
+    },
+    "2598": {
+      "action": "redirect",
+      "target": "/product-duvets/"
+    },
+    "2600": {
+      "action": "redirect",
+      "target": "/product-slippers/"
+    },
+    "2603": {
+      "action": "gone"
+    },
+    "2741": {
+      "action": "redirect",
+      "target": "/spa-textile/"
+    }
+  },
+  "product": {
+    "1622": {
+      "action": "review"
+    },
+    "1744": {
+      "action": "review"
+    },
+    "1748": {
+      "action": "review"
+    },
+    "1769": {
+      "action": "review"
+    },
+    "1773": {
+      "action": "review"
+    },
+    "1789": {
+      "action": "review"
+    },
+    "1790": {
+      "action": "review"
+    },
+    "1791": {
+      "action": "review"
+    },
+    "1792": {
+      "action": "review"
+    },
+    "1793": {
+      "action": "review"
+    },
+    "1794": {
+      "action": "review"
+    },
+    "1797": {
+      "action": "review"
+    },
+    "1798": {
+      "action": "review"
+    },
+    "1807": {
+      "action": "review"
+    },
+    "1812": {
+      "action": "review"
+    },
+    "1813": {
+      "action": "review"
+    },
+    "1832": {
+      "action": "review"
+    },
+    "1836": {
+      "action": "review"
+    },
+    "1838": {
+      "action": "review"
+    },
+    "1842": {
+      "action": "review"
+    },
+    "1843": {
+      "action": "review"
+    },
+    "1844": {
+      "action": "review"
+    },
+    "1845": {
+      "action": "review"
+    },
+    "1849": {
+      "action": "review"
+    },
+    "1850": {
+      "action": "review"
+    },
+    "1851": {
+      "action": "review"
+    },
+    "1852": {
+      "action": "review"
+    },
+    "1857": {
+      "action": "review"
+    },
+    "1858": {
+      "action": "review"
+    },
+    "1859": {
+      "action": "review"
+    },
+    "1869": {
+      "action": "review"
+    },
+    "1875": {
+      "action": "review"
+    },
+    "1877": {
+      "action": "review"
+    },
+    "1880": {
+      "action": "review"
+    },
+    "1886": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1888": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1889": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1890": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1891": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1892": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1893": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1894": {
+      "action": "keep",
+      "key": "towels-standard"
+    },
+    "1898": {
+      "action": "keep",
+      "key": "towels-standard"
+    },
+    "1900": {
+      "action": "keep",
+      "key": "towels-comfort"
+    },
+    "1904": {
+      "action": "keep",
+      "key": "towels-comfort"
+    },
+    "1906": {
+      "action": "keep",
+      "key": "towels-premium"
+    },
+    "1910": {
+      "action": "keep",
+      "key": "towels-premium"
+    },
+    "1912": {
+      "action": "keep",
+      "key": "bath-mats-standard"
+    },
+    "1916": {
+      "action": "keep",
+      "key": "bath-mats-comfort"
+    },
+    "1921": {
+      "action": "review"
+    },
+    "1925": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1926": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1927": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1928": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1930": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1931": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1932": {
+      "action": "keep",
+      "key": "mattress-protectors-premium"
+    },
+    "1935": {
+      "action": "review"
+    },
+    "1940": {
+      "action": "keep",
+      "key": "towels-napkins"
+    },
+    "1948": {
+      "action": "keep",
+      "key": "robes-comfort"
+    },
+    "1951": {
+      "action": "keep",
+      "key": "robes-comfort"
+    },
+    "1952": {
+      "action": "keep",
+      "key": "robes-comfort"
+    },
+    "1953": {
+      "action": "keep",
+      "key": "robes-comfort"
+    },
+    "1954": {
+      "action": "keep",
+      "key": "robes-comfort"
+    },
+    "1955": {
+      "action": "keep",
+      "key": "robes-comfort"
+    },
+    "1956": {
+      "action": "keep",
+      "key": "robes-premium"
+    },
+    "1957": {
+      "action": "keep",
+      "key": "robes-premium"
+    },
+    "1958": {
+      "action": "keep",
+      "key": "robes-premium"
+    },
+    "1959": {
+      "action": "keep",
+      "key": "robes-premium"
+    },
+    "1960": {
+      "action": "keep",
+      "key": "robes-premium"
+    },
+    "1961": {
+      "action": "keep",
+      "key": "robes-premium"
+    },
+    "1963": {
+      "action": "keep",
+      "key": "robes-comfort"
+    },
+    "1967": {
+      "action": "keep",
+      "key": "robes-comfort"
+    },
+    "1968": {
+      "action": "keep",
+      "key": "robes-comfort"
+    },
+    "1969": {
+      "action": "keep",
+      "key": "robes-premium"
+    },
+    "1970": {
+      "action": "keep",
+      "key": "robes-premium"
+    },
+    "1971": {
+      "action": "keep",
+      "key": "robes-premium"
+    },
+    "1972": {
+      "action": "keep",
+      "key": "robes-standard"
+    },
+    "1975": {
+      "action": "keep",
+      "key": "robes-standard"
+    },
+    "1976": {
+      "action": "keep",
+      "key": "robes-standard"
+    },
+    "1977": {
+      "action": "keep",
+      "key": "robes-standard"
+    },
+    "1978": {
+      "action": "keep",
+      "key": "robes-standard"
+    },
+    "1981": {
+      "action": "keep",
+      "key": "pillows-standard"
+    },
+    "1983": {
+      "action": "keep",
+      "key": "pillows-standard"
+    },
+    "1985": {
+      "action": "review"
+    },
+    "1987": {
+      "action": "review"
+    },
+    "1988": {
+      "action": "review"
+    },
+    "1990": {
+      "action": "review"
+    },
+    "1991": {
+      "action": "review"
+    },
+    "1992": {
+      "action": "review"
+    },
+    "1993": {
+      "action": "review"
+    },
+    "1995": {
+      "action": "review"
+    },
+    "1996": {
+      "action": "review"
+    },
+    "1997": {
+      "action": "keep",
+      "key": "duvets-standard"
+    },
+    "1999": {
+      "action": "keep",
+      "key": "duvets-standard"
+    },
+    "2430": {
+      "action": "review"
+    },
+    "2434": {
+      "action": "review"
+    },
+    "2435": {
+      "action": "review"
+    },
+    "2436": {
+      "action": "review"
+    },
+    "2437": {
+      "action": "review"
+    },
+    "2438": {
+      "action": "review"
+    },
+    "2457": {
+      "action": "review"
+    },
+    "2461": {
+      "action": "review"
+    },
+    "2462": {
+      "action": "review"
+    },
+    "2464": {
+      "action": "review"
+    },
+    "2465": {
+      "action": "review"
+    },
+    "2466": {
+      "action": "review"
+    },
+    "2467": {
+      "action": "review"
+    },
+    "2471": {
+      "action": "review"
+    },
+    "2472": {
+      "action": "review"
+    },
+    "2474": {
+      "action": "review"
+    },
+    "2475": {
+      "action": "review"
+    },
+    "2476": {
+      "action": "review"
+    },
+    "2477": {
+      "action": "keep",
+      "key": "bed-linen-Наволочки-comfort"
+    },
+    "2481": {
+      "action": "keep",
+      "key": "bed-linen-Наволочки-comfort"
+    },
+    "2482": {
+      "action": "keep",
+      "key": "bed-linen-Простирадла-comfort"
+    },
+    "2484": {
+      "action": "keep",
+      "key": "bed-linen-Простирадла-comfort"
+    },
+    "2485": {
+      "action": "keep",
+      "key": "bed-linen-Підковдри-comfort"
+    },
+    "2486": {
+      "action": "keep",
+      "key": "bed-linen-Підковдри-comfort"
+    },
+    "2489": {
+      "action": "keep",
+      "key": "bed-linen-Підковдри-standard"
+    },
+    "2491": {
+      "action": "keep",
+      "key": "bed-linen-Підковдри-standard"
+    },
+    "2492": {
+      "action": "keep",
+      "key": "bed-linen-Простирадла-standard"
+    },
+    "2493": {
+      "action": "keep",
+      "key": "bed-linen-Простирадла-standard"
+    },
+    "2500": {
+      "action": "keep",
+      "key": "mattress-protectors-standard"
+    },
+    "2506": {
+      "action": "keep",
+      "key": "mattress-protectors-standard"
+    },
+    "2508": {
+      "action": "review"
+    },
+    "2510": {
+      "action": "keep",
+      "key": "mattress-protectors-standard"
+    },
+    "2511": {
+      "action": "keep",
+      "key": "mattress-protectors-comfort"
+    },
+    "2512": {
+      "action": "keep",
+      "key": "mattress-protectors-comfort"
+    },
+    "2513": {
+      "action": "keep",
+      "key": "mattress-protectors-comfort"
+    },
+    "2514": {
+      "action": "keep",
+      "key": "mattress-protectors-comfort"
+    },
+    "2531": {
+      "action": "keep",
+      "key": "mattress-protectors-cover-basic"
+    },
+    "2535": {
+      "action": "keep",
+      "key": "mattress-protectors-cover-premium"
+    },
+    "2556": {
+      "action": "review"
+    },
+    "2560": {
+      "action": "keep",
+      "key": "towels-classic-color"
+    },
+    "2563": {
+      "action": "keep",
+      "key": "towels-classic-color"
+    },
+    "2567": {
+      "action": "keep",
+      "key": "towels-classic-color"
+    },
+    "2571": {
+      "action": "keep",
+      "key": "towels-classic-color"
+    },
+    "2575": {
+      "action": "keep",
+      "key": "towels-classic-color"
+    },
+    "2578": {
+      "action": "keep",
+      "key": "towels-classic-color"
+    },
+    "2581": {
+      "action": "keep",
+      "key": "towels-classic-color"
+    },
+    "2606": {
+      "action": "keep",
+      "key": "towels-classic-color"
+    },
+    "2610": {
+      "action": "keep",
+      "key": "towels-classic-color"
+    },
+    "2615": {
+      "action": "review"
+    },
+    "2619": {
+      "action": "keep",
+      "key": "table-textiles-comfort"
+    },
+    "2624": {
+      "action": "keep",
+      "key": "table-textiles-premium"
+    },
+    "2629": {
+      "action": "review"
+    },
+    "2633": {
+      "action": "review"
+    },
+    "2636": {
+      "action": "review"
+    },
+    "2641": {
+      "action": "keep",
+      "key": "slippers-standard"
+    },
+    "2643": {
+      "action": "keep",
+      "key": "slippers-comfort"
+    },
+    "2665": {
+      "action": "review"
+    },
+    "2673": {
+      "action": "review"
+    },
+    "2680": {
+      "action": "review"
+    },
+    "2689": {
+      "action": "keep",
+      "key": "table-textiles-standard"
+    },
+    "2749": {
+      "action": "keep",
+      "key": "towels-napkins"
+    }
+  }
+}

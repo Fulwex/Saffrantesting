@@ -1,0 +1,74 @@
+/* Focused V3 treatment for the hotel and SPA journeys. */
+.hotel-page .inner-hero,.spa-page .inner-hero{min-height:100svh}
+.hotel-page .inner-hero-media img,.spa-page .inner-hero-media img{width:100%;height:100%;object-fit:cover}
+.hotel-page .inner-hero-media img{object-position:center 54%}
+.hotel-page .inner-hero::before{background:linear-gradient(90deg,#0a142bd9 0%,#0a142ba8 40%,#0a142b38 85%),linear-gradient(0deg,#0a142b8c,transparent 58%)}
+.hotel-page .intro,.spa-page .intro{padding:78px 0;background:#f5f1e9}
+.hotel-page .intro-grid,.spa-page .intro-grid{grid-template-columns:minmax(270px,.67fr) minmax(0,1fr);gap:clamp(45px,7vw,100px);align-items:center}
+.hotel-page .intro-media,.spa-page .intro-media{width:min(100%,390px);height:min(66vw,570px);min-height:460px;aspect-ratio:auto;max-height:none;justify-self:center;box-shadow:24px 24px 0 #ded6c7,0 24px 55px #111b3424}
+.hotel-page .intro-media video,.spa-page .intro-media video{object-fit:cover;object-position:center}
+.spa-page .intro-copy{grid-column:2;grid-row:1}
+.spa-page .intro-media{grid-column:1;grid-row:1}
+.hotel-page .intro-copy h2,.spa-page .intro-copy h2{font-size:clamp(2.55rem,3.8vw,4.3rem)}
+.hotel-page .intro-system-list{margin-top:22px}
+.hotel-page .intro-system-list span{display:block;padding:12px 0;font-size:.9rem}
+.hotel-page .intro-system-list small{display:block;margin-top:4px;text-align:left;font-size:.81rem;line-height:1.4}
+.hotel-page .expertise,.spa-page .expertise{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;padding:82px max(24px,calc((100vw - 1280px)/2));background:#eee9df}
+.hotel-page .expertise .story-row,.spa-page .expertise .story-row{display:flex;flex-direction:column;min-width:0;max-width:none;margin:0;background:#17253f;box-shadow:none;border:0}
+.hotel-page .expertise .story-row:nth-child(2),.spa-page .expertise .story-row:nth-child(2){background:#263755}
+.hotel-page .expertise .story-image,.spa-page .expertise .story-image{order:0;flex:none;width:100%;height:270px;min-height:0;max-height:none;overflow:hidden}
+.hotel-page .expertise .story-image img,.spa-page .expertise .story-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 55%}
+.hotel-page .expertise .story-copy,.spa-page .expertise .story-copy{order:1;flex:1;padding:34px clamp(24px,3vw,46px) 35px}
+.hotel-page .expertise .story-copy h2,.spa-page .expertise .story-copy h2{max-width:540px;margin:12px 0 13px;font-size:clamp(2.25rem,3.1vw,3.5rem);line-height:1.02}
+.hotel-page .expertise .story-copy>p,.spa-page .expertise .story-copy>p{max-width:550px;font-size:.92rem;line-height:1.55}
+.hotel-page .expertise .story-points-detail,.spa-page .expertise .story-points-detail{margin:18px 0}
+.hotel-page .expertise .story-points-detail .story-point,.spa-page .expertise .story-points-detail .story-point{padding:9px 0}
+.hotel-page .expertise .story-points-detail .story-point span,.spa-page .expertise .story-points-detail .story-point span{font-size:1.38rem}
+.hotel-page .expertise .story-point p,.spa-page .expertise .story-point p{font-size:.82rem;line-height:1.42}
+.hotel-page .product-system,.spa-page .product-system{padding:75px 0 82px}
+.hotel-page .product-system .section-head,.spa-page .product-system .section-head{margin-bottom:28px}
+.hotel-page .product-grid,.spa-page .product-grid{gap:14px}
+.hotel-page .product-tile,.spa-page .product-tile,.hotel-page .product-tile.wide,.spa-page .product-tile.wide{min-height:330px;padding:22px}
+.hotel-page .product-tile small,.spa-page .product-tile small{display:none}
+.hotel-page .product-tile p,.spa-page .product-tile p{display:none}
+.hotel-page .product-tile h3,.spa-page .product-tile h3{font-size:clamp(1.55rem,2vw,2.3rem)}
+.hotel-page .knowledge,.spa-page .knowledge{padding:76px 0 82px;background:#f5f1e9;color:#17243d}
+.hotel-page .knowledge-head,.spa-page .knowledge-head{grid-template-columns:1fr auto;gap:12px 40px;margin-bottom:28px}
+.hotel-page .knowledge-head h2,.spa-page .knowledge-head h2{color:#17243d;font-size:clamp(2.75rem,4.1vw,4.3rem)}
+.hotel-page .knowledge-head p,.spa-page .knowledge-head p{color:#5d6270}
+.hotel-page .knowledge-head .eyebrow,.spa-page .knowledge-head .eyebrow{color:#9d7d47}
+.hotel-page .term-grid,.spa-page .term-grid{gap:0 35px}
+.hotel-page .term,.spa-page .term,.hotel-page .term:first-child,.spa-page .term:first-child{grid-template-columns:30px minmax(110px,.45fr) 1fr;gap:12px;min-height:0;height:auto;padding:20px 0;border-top:1px solid #bbae99;background:transparent}
+.hotel-page .term h3,.spa-page .term h3,.hotel-page .term:first-child h3,.spa-page .term:first-child h3{color:#17243d;font-size:clamp(1.7rem,2.1vw,2.2rem)}
+.hotel-page .term p,.spa-page .term p,.hotel-page .term:first-child p,.spa-page .term:first-child p{color:#555d6a;font-size:.82rem}
+.hotel-page .term small,.spa-page .term small{color:#967747}
+@media(max-width:900px){
+  .hotel-page .intro-grid,.spa-page .intro-grid{grid-template-columns:minmax(200px,.75fr) 1fr;gap:36px}
+  .hotel-page .intro-media,.spa-page .intro-media{height:470px;min-height:0}
+  .hotel-page .expertise,.spa-page .expertise{gap:14px;padding-inline:20px}
+  .hotel-page .expertise .story-image,.spa-page .expertise .story-image{height:230px}
+}
+@media(max-width:760px){
+  .hotel-page .inner-hero,.spa-page .inner-hero{min-height:100svh}
+  .hotel-page .intro-grid,.spa-page .intro-grid{grid-template-columns:1fr;gap:35px}
+  .hotel-page .intro-media,.spa-page .intro-media{grid-column:auto;grid-row:auto;width:min(78%,350px);height:auto;min-height:0;aspect-ratio:9/16;justify-self:center}
+  .spa-page .intro-copy{grid-column:auto;grid-row:auto;order:1}
+  .spa-page .intro-media{order:0}
+  .hotel-page .expertise,.spa-page .expertise{grid-template-columns:1fr;gap:17px;padding:46px 17px}
+  .hotel-page .expertise .story-image,.spa-page .expertise .story-image{height:250px;min-height:0}
+  .hotel-page .expertise .story-copy,.spa-page .expertise .story-copy{padding:29px 24px 34px}
+  .hotel-page .expertise .story-copy h2,.spa-page .expertise .story-copy h2{font-size:clamp(2.2rem,8vw,3rem)}
+  .hotel-page .knowledge-head,.spa-page .knowledge-head{grid-template-columns:1fr}
+  .hotel-page .term-grid,.spa-page .term-grid{grid-template-columns:1fr}
+  .hotel-page .product-tile,.spa-page .product-tile,.hotel-page .product-tile.wide,.spa-page .product-tile.wide{min-height:265px}
+}
+@media(max-width:540px){
+  .hotel-page .intro-media,.spa-page .intro-media{width:min(78%,285px)}
+  .hotel-page .product-grid,.spa-page .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .hotel-page .product-tile,.spa-page .product-tile,.hotel-page .product-tile.wide,.spa-page .product-tile.wide,.hotel-page .product-tile:last-child{grid-column:auto;min-height:218px;padding:16px}
+  .hotel-page .product-tile h3,.spa-page .product-tile h3{font-size:1.35rem}
+  .hotel-page .term,.spa-page .term,.hotel-page .term:first-child,.spa-page .term:first-child{grid-template-columns:28px minmax(90px,.45fr) 1fr;gap:7px;padding:17px 0}
+  .hotel-page .term small,.spa-page .term small{grid-column:auto;grid-row:auto}
+  .hotel-page .term h3,.spa-page .term h3,.hotel-page .term:first-child h3,.spa-page .term:first-child h3{grid-column:auto;font-size:1.5rem}
+  .hotel-page .term p,.spa-page .term p,.hotel-page .term:first-child p,.spa-page .term:first-child p{grid-column:auto;font-size:.75rem}
+}

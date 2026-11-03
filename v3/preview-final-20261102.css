@@ -1,0 +1,44 @@
+/* Final editorial layout for the preview. */
+@media (min-width: 761px) {
+  .brand-home .direction-visual {height: min(670px,calc(100svh - 112px));min-height:520px}
+  .hotel-page .expertise,.spa-page .expertise {display:block;padding:72px max(24px,calc((100vw - 1280px)/2));background:#eee9df}
+  .hotel-page .expertise .story-row,.spa-page .expertise .story-row {display:grid;grid-template-columns:1fr 1fr;height:min(575px,calc(100svh - 115px));min-height:485px;max-height:575px;margin:0 0 24px;background:#17253f}
+  .hotel-page .expertise .story-row:last-child,.spa-page .expertise .story-row:last-child {margin-bottom:0}
+  .hotel-page .expertise .story-row:nth-child(2),.spa-page .expertise .story-row:nth-child(2) {background:#263755}
+  .hotel-page .expertise .story-row:nth-child(2) .story-image,.spa-page .expertise .story-row:nth-child(2) .story-image {order:2}
+  .hotel-page .expertise .story-image,.spa-page .expertise .story-image {height:100%;min-height:0;width:100%}
+  .hotel-page .expertise .story-copy,.spa-page .expertise .story-copy {min-height:0;padding:28px clamp(28px,3.2vw,58px);justify-content:center}
+  .hotel-page .expertise .story-copy h2,.spa-page .expertise .story-copy h2 {font-size:clamp(2rem,2.7vw,3rem);line-height:1.07}
+  .hotel-page .expertise .story-points,.spa-page .expertise .story-points {margin:16px 0}
+  .hotel-page .expertise .story-point,.spa-page .expertise .story-point {padding:7px 0}
+  .hotel-page .expertise .story-copy>p,.spa-page .expertise .story-copy>p {line-height:1.48}
+  .hotel-page .expertise .story-image img {object-position:center 52%}
+}
+@media (max-width: 760px) {
+  .brand-home .hero {min-height: min(760px,88svh);align-items:center}
+  .brand-home .hero-grid {padding-top:100px;padding-bottom:32px}
+  .brand-home .hero-lead span {display:none}
+  .brand-home .hero-media img {object-position:60% center}
+  .brand-home .partners-portfolio {--work-width:164px}
+  .brand-home .partner-carousel {display:flex;flex-direction:column;gap:15px}
+  .brand-home .partner-strips {order:0;width:100%;overflow:hidden}
+  .brand-home .partner-arrow {order:1;width:42px;height:42px}
+  .brand-home .partner-carousel {display:grid;grid-template-columns:1fr 46px 46px 1fr;column-gap:10px;row-gap:15px}
+  .brand-home .partner-strips {grid-column:1/-1;grid-row:1}
+  .brand-home .partner-arrow-prev {grid-column:2;grid-row:2;justify-self:end}
+  .brand-home .partner-arrow-next {grid-column:3;grid-row:2;justify-self:start}
+  .brand-home .partner-strip {padding:0;overflow:hidden;mask-image:none;-webkit-mask-image:none}
+  .brand-home .partners-portfolio .partner-work-caption,.brand-home .partners-portfolio .partner-work-caption-tr,.brand-home .partners-portfolio .partner-work-caption-br,.brand-home .partners-portfolio .partner-work-caption-bl {justify-content:center;text-align:center;gap:0;min-height:38px;padding:6px 2px}
+  .brand-home .partners-portfolio .partner-work-caption::before {display:none}
+  .brand-home .partners-portfolio .partner-work-location {white-space:nowrap;font-size:.72rem;letter-spacing:-.015em}
+  .brand-home .direction,.brand-home .direction-grid {min-height:0}
+  .brand-home .direction {padding:52px 0 58px}
+  .brand-home .direction-grid {gap:28px}
+  .brand-home .direction-visual {height:clamp(340px,98vw,430px)}
+  .hotel-page .inner-hero,.spa-page .inner-hero {min-height:76svh}
+  .hotel-page .hero-inner,.spa-page .hero-inner {padding-top:95px;padding-bottom:40px}
+  .hotel-page .inner-hero-media img,.spa-page .inner-hero-media img {object-position:center 58%}
+  .hotel-page .expertise .story-image,.spa-page .expertise .story-image {height:260px}
+  .about-company .about-hero {padding-top:84px}
+  .about-company .about-hero-content {padding-bottom:22px}
+}

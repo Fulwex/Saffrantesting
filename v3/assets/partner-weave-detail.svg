@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" fill="none">
+  <!-- Second, quieter textile contour for the opposite side of the gallery. -->
+  <path fill="#192844" fill-opacity=".55" d="M-90 94C204 70 421 237 405 411c-15 162-259 193-342 414H-90Z"/>
+  <g stroke="#d5b779" stroke-opacity=".1" stroke-linecap="round">
+    <path stroke-width="1.2" d="M-90 94C204 70 421 237 405 411c-15 162-259 193-342 414"/>
+    <path stroke-width=".8" d="M-110 126C180 105 385 255 372 412c-14 148-243 187-320 391"/>
+    <path stroke-width=".8" d="M-130 158C156 140 349 273 339 413c-13 134-227 181-298 368"/>
+    <path stroke-width=".6" d="M-150 190C132 175 313 291 306 414c-12 120-211 175-276 345"/>
+    <path stroke-width=".6" d="M-170 222C108 210 277 309 273 415c-11 106-195 169-254 322"/>
+    <path stroke-width=".8" stroke-dasharray="2 11" d="M-72 61C230 35 455 216 438 410c-16 177-275 199-353 435"/>
+  </g>
+</svg>

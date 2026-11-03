@@ -1,0 +1,105 @@
+/* Company story — editorial layout with one authentic process film. */
+.about-company .about-section-index{display:block;color:#aa8750;font:600 .65rem/1.3 var(--sans,Arial,sans-serif);letter-spacing:.18em;text-transform:uppercase}
+.about-company h1,.about-company h2{letter-spacing:-.035em}
+.about-company .about-hero{position:relative;isolation:isolate;display:flex;align-items:stretch;height:100svh;min-height:650px;max-height:980px;padding:82px 0 0;background:linear-gradient(90deg,rgba(10,19,37,.92) 0%,rgba(10,19,37,.79) 48%,rgba(10,19,37,.54) 100%),url('assets/hero-textiles.webp') center 57%/cover no-repeat;color:#fff}
+.about-company .about-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#08142955,transparent 35%);pointer-events:none}
+.about-company .about-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,.72fr);gap:clamp(30px,5vw,85px);align-items:center;width:min(100% - 80px,1280px);min-height:0;height:100%;margin-inline:auto}
+.about-company .about-hero-content{align-self:center;display:block;min-height:0;padding:0}
+.about-company .about-hero-kicker{display:block;margin:0 0 22px;color:#e5c991;font-size:.65rem;font-weight:600;letter-spacing:.19em}
+.about-company .about-hero-kicker::before{display:none}
+.about-company .about-hero h1{max-width:610px;margin:0 0 20px;color:#fff;font-size:clamp(2.65rem,3.65vw,4.2rem);font-weight:500;line-height:1.07;text-shadow:none}
+.about-company .about-hero h1 em{display:block;margin:2px 0 0;color:#e1c58e;font-weight:400}
+.about-company .about-hero .about-hero-note{display:block;max-width:520px;margin:0 0 27px;color:#e4e7ed;font-size:clamp(.94rem,1.1vw,1.07rem);line-height:1.62}
+.about-company .about-hero-facts{display:flex;flex-wrap:wrap;gap:16px 28px;padding-top:17px;border-top:1px solid #ffffff66}
+.about-company .about-hero-facts span{display:flex;align-items:baseline;gap:8px;color:#e7e9ef;font-size:.74rem}
+.about-company .about-hero-facts strong{color:#e1c58e;font:500 1.85rem/1 var(--serif,Georgia,serif)}
+.about-company .about-hero-scroll{display:inline-flex;align-items:center;gap:13px;margin-top:30px;color:#fff;border-bottom:1px solid #dcc691;padding-bottom:8px;font-size:.7rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.about-company .about-hero-scroll span{color:#e1c58e;font-size:1.25rem}
+.about-company .about-hero-composition{display:flex;justify-content:flex-end;align-items:center;min-width:0;height:100%;margin:0;padding:0}
+.about-company .about-hero-film{position:relative;width:auto;height:min(calc(100svh - 135px),780px);max-height:100%;aspect-ratio:9/16;margin:0;border:1px solid #e2c99599;box-shadow:0 24px 60px #050c1ca3;overflow:hidden;background:#0b1427}
+.about-company .about-hero-film video{display:block;width:100%;height:100%;aspect-ratio:9/16;object-fit:contain}
+.about-company .about-hero-film span{position:absolute;inset:auto 0 0;display:block;padding:20px 17px 13px;background:linear-gradient(transparent,#081326d1);color:#fff;font-size:.58rem;letter-spacing:.14em}
+.about-company .about-hero-grid{grid-template-columns:minmax(0,1fr) minmax(370px,.85fr);gap:clamp(25px,4vw,65px)}
+.about-company .about-hero-composition{justify-content:center;position:relative}
+.about-company .about-hero-composition::before{content:"";position:absolute;width:min(100%,460px);height:74%;left:0;top:13%;border:1px solid #e2c9956b;pointer-events:none}
+.about-company .about-hero-film{width:min(100%,370px);height:min(calc(100svh - 125px),660px);aspect-ratio:9/16;box-shadow:0 27px 70px #030b1bae}
+.about-company .about-hero-film video{object-fit:contain}
+.about-company .about-hero-content::after{content:"";display:block;width:130px;height:1px;margin-top:31px;background:#e1c58e8a}
+.about-company .about-statement{padding:88px 0;background:#f8f5ee}
+.about-company .about-story-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,.85fr);gap:clamp(50px,7vw,110px);align-items:center}
+.about-company .about-story-copy h2{max-width:650px;margin:18px 0 26px;color:#17243d;font-size:clamp(2.35rem,3.1vw,3.55rem);font-weight:500;line-height:1.1}
+.about-company .about-story-copy h2 em{display:block;color:#997f51;font-weight:400}
+.about-company .about-story-copy p{max-width:570px;margin:0;color:#4a5668;font-size:.96rem;line-height:1.7}
+.about-company .about-story-copy p+p{margin-top:17px}
+.about-company .about-story-image{position:relative;min-height:400px;margin:0;align-self:stretch;overflow:hidden}
+.about-company .about-story-image img{width:100%;height:100%;object-fit:cover}
+.about-company .about-story-image figcaption{position:absolute;inset:auto 0 0;padding:35px 18px 16px;background:linear-gradient(transparent,#0a1835bd);color:#fff;font-size:.72rem}
+.about-company .about-craft{padding:88px 0;background:#eae4d9;color:#17243d}
+.about-company .about-craft-grid{display:grid;grid-template-columns:minmax(330px,.9fr) 1fr;gap:clamp(45px,7vw,105px);align-items:center}
+.about-company .about-craft-media{position:relative;width:100%;height:auto;aspect-ratio:5/4;max-height:none;margin:0;border:0;background:#d9d5ce;overflow:hidden}
+.about-company .about-craft-media img{width:100%;height:100%;object-fit:cover}
+.about-company .about-craft-media figcaption{position:absolute;inset:auto 0 0;padding:32px 17px 15px;background:linear-gradient(transparent,#13213ba8);color:#fff;font-size:.69rem;letter-spacing:.04em}
+.about-company .about-craft-copy h2{max-width:580px;margin:18px 0 24px;color:#17243d;font-size:clamp(2.35rem,3.1vw,3.55rem);font-weight:500;line-height:1.09}
+.about-company .about-craft-copy h2 em{display:block;color:#997f51;font-weight:400}
+.about-company .about-craft-copy>p{max-width:560px;margin:0;color:#4a5668;font-size:.95rem;line-height:1.68}
+.about-company .about-craft-copy>p+p{margin-top:17px}
+.about-company .about-craft-copy>.text-link{display:inline-block;margin-top:27px;padding-bottom:7px;color:#17243d;border-bottom:1px solid #ad956c;font-size:.72rem;font-weight:600;letter-spacing:.04em}
+.about-company .about-values{padding:0;background:#fbfaf7;color:#17243d}
+.about-company .about-values-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(330px,.9fr);align-items:stretch;gap:clamp(50px,7vw,110px);height:520px;min-height:0}
+.about-company .about-values-copy{align-self:center;padding:75px 0}
+.about-company .about-values h2{max-width:560px;margin:18px 0 25px;color:#17243d;font-size:clamp(2.35rem,3.1vw,3.55rem);font-weight:500;line-height:1.1}
+.about-company .about-values h2 em{color:#997f51;font-weight:400}
+.about-company .about-values p{max-width:520px;margin:0;color:#4a5668;font-size:.98rem;line-height:1.7}
+.about-company .about-values .about-values-note{margin-top:23px;padding-left:17px;border-left:2px solid #bea274;color:#17243d;font-size:.89rem}
+.about-company .about-values-image{margin:0;height:520px;min-height:0;overflow:hidden}
+.about-company .about-values-image img{width:100%;height:100%;object-fit:cover;object-position:center 45%}
+.about-company .about-geography{padding:44px 0;background:#172743;color:#fff;border:0}
+.about-company .about-geography-inner{display:grid;grid-template-columns:1fr auto;align-items:center;gap:35px}
+.about-company .about-geography h2{max-width:650px;margin:9px 0 0;color:#fff;font-size:clamp(1.75rem,2.2vw,2.5rem);font-weight:500;line-height:1.12}
+.about-company .about-geography h2 em{color:#dec38e;font-weight:400}
+.about-company .about-places{display:flex;align-items:center;gap:17px;color:#f5f1e8;font:500 clamp(1.05rem,1.4vw,1.5rem)/1.2 var(--serif,Georgia,serif);white-space:nowrap}
+.about-company .about-places span{color:#f5f1e8;font-size:inherit;letter-spacing:.01em}
+.about-company .about-places i{display:block;width:4px;height:4px;border-radius:50%;background:#d5b779}
+.about-company .about-next{padding:75px 0;background:#f0ece4;color:#17243d;text-align:left}
+.about-company .about-next h2{max-width:700px;margin:16px 0;color:#17243d;font-size:clamp(2.4rem,3.1vw,3.6rem);font-weight:500;line-height:1.1}
+.about-company .about-next p{max-width:520px;margin:0 0 25px;color:#4a5668;line-height:1.6}
+@media(max-width:900px){
+  .about-company .about-hero-grid{width:calc(100% - 44px);grid-template-columns:minmax(0,1fr) minmax(255px,.68fr);gap:23px}
+  .about-company .about-hero h1{font-size:clamp(2.35rem,4.4vw,3.1rem)}
+  .about-company .about-geography-inner{grid-template-columns:1fr;gap:22px}
+}
+@media(max-width:760px){
+  .about-company .about-hero{display:block;height:auto;min-height:0;max-height:none;padding:96px 0 0;background:linear-gradient(180deg,#0b1730d9,#0b1730e8),url('assets/hero-textiles.webp') center/cover no-repeat}
+  .about-company .about-hero-grid{display:flex;flex-direction:column;width:calc(100% - 32px);height:auto;gap:0}
+  .about-company .about-hero-content{width:100%;padding:0 0 32px}
+  .about-company .about-hero-kicker{margin-bottom:14px}
+  .about-company .about-hero h1{max-width:570px;margin-bottom:17px;font-size:clamp(2.35rem,7.5vw,3.3rem);line-height:1.07}
+  .about-company .about-hero .about-hero-note{max-width:550px;margin-bottom:22px;font-size:.93rem;line-height:1.55}
+  .about-company .about-hero-facts{gap:10px 22px}
+  .about-company .about-hero-facts strong{font-size:1.45rem}
+  .about-company .about-hero-scroll{margin-top:22px}
+  .about-company .about-hero-composition{position:relative;inset:auto;display:block;width:100vw;height:auto;margin-left:calc(50% - 50vw);padding:0;background:#0b1427}
+  .about-company .about-hero-film{width:100vw;height:auto;max-height:none;aspect-ratio:9/16;margin:0;border:0;box-shadow:none}
+  .about-company .about-hero-film video{width:100%;height:100%;aspect-ratio:9/16;object-fit:contain}
+  .about-company .about-hero-composition::before,.about-company .about-hero-content::after{display:none}
+  .about-company .about-statement,.about-company .about-craft{padding:65px 0}
+  .about-company .about-story-grid,.about-company .about-craft-grid,.about-company .about-values-layout{display:grid;grid-template-columns:1fr;gap:30px}
+  .about-company .about-story-copy h2,.about-company .about-craft-copy h2,.about-company .about-values h2{font-size:clamp(2.15rem,7vw,3rem)}
+  .about-company .about-story-copy p,.about-company .about-craft-copy>p,.about-company .about-values p{font-size:.92rem}
+  .about-company .about-story-image{min-height:330px;max-height:460px}
+  .about-company .about-craft-media{aspect-ratio:4/3}
+  .about-company .about-values-layout{height:auto;gap:0}
+  .about-company .about-values-copy{padding:65px 0 38px}
+  .about-company .about-values-image{height:420px;min-height:0;max-height:500px}
+  .about-company .about-geography{padding:40px 0}
+  .about-company .about-places{gap:12px;flex-wrap:wrap;font-size:1.18rem}
+  .about-company .about-next{padding:65px 0}
+  .about-company .about-next h2{font-size:clamp(2.2rem,7vw,3rem)}
+}
+@media(max-width:430px){
+  .about-company .about-hero h1{font-size:clamp(2.3rem,10.5vw,2.75rem)}
+  .about-company .about-hero-facts span{font-size:.68rem}
+  .about-company .about-story-image{min-height:290px}
+  .about-company .about-values-image{height:350px;min-height:0}
+  .about-company .about-next .btn{width:100%}
+}

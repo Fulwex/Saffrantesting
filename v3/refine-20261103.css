@@ -1,0 +1,58 @@
+/* 03.11.2026 — hero головної, мобільні стрілки партнерів, повітря між блоками. */
+
+/* ---------- 1. Hero: композиція з рядком фактів унизу ---------- */
+.brand-home .hero{display:grid;grid-template-rows:1fr auto;align-items:stretch}
+.brand-home .hero-grid{display:flex;align-items:flex-end}
+.brand-home .hero-copy{width:100%;max-width:none}
+.brand-home .hero #hero-title{max-width:840px}
+.brand-home .hero-lead{display:block;max-width:620px;color:#d8dde6}
+.brand-home .hero-lead span{display:inline;max-width:none;color:#c3cbd8}
+
+.brand-home .hero-facts{position:relative;z-index:2;width:100%;border-top:1px solid rgba(213,183,121,.38);background:linear-gradient(0deg,rgba(8,15,31,.62),rgba(8,15,31,.08))}
+.brand-home .hero-facts-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;padding:20px 0 22px}
+.brand-home .hero-fact{display:flex;align-items:baseline;gap:13px;min-width:0}
+.brand-home .hero-fact+.hero-fact{padding-left:clamp(20px,3.4vw,58px);border-left:1px solid rgba(255,255,255,.17)}
+.brand-home .hero-fact strong{flex:none;font-family:var(--serif);font-size:clamp(1.55rem,2.1vw,2.3rem);font-weight:500;line-height:1;letter-spacing:-.03em;color:var(--gold-2)}
+.brand-home .hero-fact span{color:#c7cfdc;font-size:.75rem;line-height:1.32;letter-spacing:.015em}
+
+@media(min-width:1101px){
+  .brand-home .hero-grid{padding-bottom:42px}
+}
+@media(max-width:1100px) and (min-width:761px){
+  .brand-home .hero-grid{padding-bottom:34px}
+  .brand-home .hero-facts-row{padding:17px 0 19px}
+}
+@media(max-width:760px){
+  .brand-home .hero{align-items:stretch}
+  .brand-home .hero-grid{padding-bottom:26px}
+  .brand-home .hero #hero-title{max-width:none}
+  .brand-home .hero-lead{font-size:.93rem;line-height:1.45}
+  .brand-home .hero-lead span{display:none}
+  .brand-home .hero-facts-row{padding:14px 0 16px}
+  .brand-home .hero-fact{flex-direction:column;align-items:flex-start;gap:4px}
+  .brand-home .hero-fact+.hero-fact{padding-left:13px}
+  .brand-home .hero-fact strong{font-size:1.15rem}
+  .brand-home .hero-fact span{font-size:.605rem;line-height:1.28}
+}
+
+/* ---------- 2. Мобільні стрілки каруселі — по краях ---------- */
+@media(max-width:760px){
+  .brand-home .partner-carousel{display:grid;grid-template-columns:1fr 1fr;column-gap:12px;row-gap:14px}
+  .brand-home .partner-strips{grid-column:1/-1;grid-row:1}
+  .brand-home .partner-arrow{grid-row:2;width:44px;height:44px}
+  .brand-home .partner-arrow-prev{grid-column:1;justify-self:start;margin-left:19px}
+  .brand-home .partner-arrow-next{grid-column:2;justify-self:end;margin-right:19px}
+}
+
+/* ---------- 3. Повітря: партнери ↔ готельний / SPA блоки (ПК) ---------- */
+@media(min-width:761px){
+  .brand-home .partners{padding-bottom:104px}
+  .brand-home .partner-carousel{margin-bottom:6px}
+  .brand-home .direction{padding-top:68px}
+  .brand-home .direction,.brand-home .direction-grid{min-height:724px}
+}
+@media(max-width:1100px) and (min-width:761px){
+  .brand-home .partners{padding-bottom:84px}
+  .brand-home .direction{padding-top:56px}
+  .brand-home .direction,.brand-home .direction-grid{min-height:668px}
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" fill="none">
+  <!-- Original decorative linework: flowing cloth and its fine stitched edge. -->
+  <path fill="#192844" fill-opacity=".7" d="M1025-84C608 21 389 214 480 418c73 164 313 169 319 354 6 172-205 277-469 501H940V-84Z"/>
+  <g stroke="#d5b779" stroke-opacity=".24" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="1.3" d="M1025-84C608 21 389 214 480 418c73 164 313 169 319 354 6 172-205 277-469 501"/>
+    <path stroke-width=".8" d="M1065-45C653 58 441 238 523 425c71 161 302 169 299 350-3 171-208 284-448 519"/>
+    <path stroke-width=".8" d="M1106-5C698 95 493 262 565 432c68 160 292 170 279 346-13 170-211 292-426 536"/>
+    <path stroke-width=".6" d="M1146 34C743 132 546 285 608 439c65 158 281 170 258 342-23 168-215 299-405 554"/>
+    <path stroke-width=".6" d="M1188 73C788 169 598 308 650 446c62 156 270 171 238 338-33 167-219 307-384 574"/>
+    <path stroke-width=".6" d="M1229 112C833 206 650 332 693 453c59 154 260 171 217 332-43 166-222 315-361 595"/>
+    <path stroke-width="1" stroke-dasharray="2 12" d="M1000-122C579-13 351 194 441 411c76 167 324 168 338 358 14 175-200 270-490 480"/>
+  </g>
+</svg>

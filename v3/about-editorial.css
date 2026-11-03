@@ -1,0 +1,24 @@
+/* Photo led company introduction with the original production film. */
+@media(min-width:901px){
+  .about-hero{position:relative;isolation:isolate;padding:85px 0 0;background:linear-gradient(90deg,rgba(12,23,44,.92) 0%,rgba(12,23,44,.80) 45%,rgba(12,23,44,.46) 100%),url('assets/home-towels-hand-2026.webp') center 56%/cover no-repeat}
+  .about-hero-grid{min-height:565px;grid-template-columns:minmax(0,1fr) minmax(260px,.64fr);gap:clamp(35px,5vw,80px)}
+  .about-hero-content{padding:34px 0 46px}
+  .about-hero h1{max-width:630px;margin-bottom:24px;font-size:clamp(3.45rem,4.75vw,5rem);line-height:1.01;letter-spacing:-.047em}
+  .about-hero h1 em{display:block;margin-top:5px;color:#e8c990}
+  .about-hero-note{max-width:440px;margin-bottom:24px;font-size:1rem;line-height:1.58}
+  .about-hero-foot{max-width:425px;margin-top:38px}
+  .about-hero-composition{align-items:center;padding:30px 0 32px}
+  .about-hero-film{position:relative;width:min(100%,290px);height:auto;aspect-ratio:9/16;overflow:hidden;border:1px solid rgba(230,204,157,.7);box-shadow:0 24px 65px #07122275}
+  .about-hero-film video{width:100%;height:100%;object-fit:contain}
+  .about-hero-film span{bottom:0;left:0;right:0;padding:15px 17px;background:linear-gradient(transparent,#0b1729bf);font-size:.6rem}
+  .about-facts{padding:24px 0}
+  .about-facts strong{font-size:clamp(2.15rem,2.8vw,3rem)}
+  .about-facts span{margin-top:6px}
+  .about-statement,.about-geography,.about-values,.about-range{padding-top:64px;padding-bottom:68px}
+  .about-statement-lead h2,.about-geography-head h2,.about-values-intro h2{font-size:clamp(2.8rem,3.8vw,4.25rem)}
+  .about-places>div{min-height:100px}
+}
+@media(max-width:760px){
+  .about-hero h1{max-width:340px;font-size:clamp(2.65rem,10.5vw,4.3rem);line-height:.96}
+  .about-hero h1 em{display:block}
+}

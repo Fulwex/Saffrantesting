@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Кошик для запиту комерційної пропозиції — SAFFRAN</title>
+  <meta name="description" content="Ваше замовлення текстилю SAFFRAN: перевірте вироби, розміри, кольори та кількість і отримайте персональну пропозицію.">
+  <meta name="robots" content="noindex,follow">
+  <meta name="theme-color" content="#111b34">
+  <link rel="stylesheet" href="products.css?v=20261027a">
+  <link rel="stylesheet" href="cart.css?v=20261026">
+<link rel="stylesheet" href="brand-system.css?v=20261027a">
+<link rel="stylesheet" href="ui-refinements.css?v=20261028a"><link rel="stylesheet" href="compact-scale.css?v=20261031a"></head>
+<body>
+  <a class="skip-link" href="#main">До змісту</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html" aria-label="SAFFRAN — головна">SAFFRAN<small>HOSPITALITY TEXTILES</small></a>
+      <nav class="nav-links" aria-label="Головна навігація">
+        <a href="about.html">Про нас</a><a href="hotel-textile.html">Готельний текстиль</a><a href="spa-textile.html">SPA текстиль</a>
+        <details class="product-menu"><summary>Продукція</summary><div class="product-menu-panel"><a href="products.html"><strong>Весь каталог</strong></a><a href="product-towels.html">Рушники</a><a href="product-bath-mats.html">Килимки</a><a href="product-bed-linen.html">Постільна білизна</a><a href="product-robes.html">Халати</a><a href="product-mattress-protectors.html">Наматрацники й топери</a><a href="product-pillows.html">Подушки</a><a href="product-duvets.html">Ковдри</a><a href="product-slippers.html">Капці</a><a href="product-table-textiles.html">Столовий текстиль</a></div></details>
+        <a href="cart.html" class="cart-nav-link" aria-current="page">Кошик <span class="cart-count" aria-label="Кількість обраних позицій">0</span></a><a href="index.html#footer-contacts">Контакти</a>
+      </nav>
+      <a class="btn btn-gold header-cta" href="products.html">Продовжити вибір</a>
+      <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false"><i></i></button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="cart-hero">
+      <div class="container"><nav class="breadcrumb" aria-label="Навігаційний шлях"><a href="index.html">Головна</a><span>/</span><a href="products.html">Продукція</a><span>/</span><span>Кошик</span></nav><div class="eyebrow light">Ваш добір текстилю</div><h1>Кошик для КП</h1><p>Оберіть вироби та кількість, залиште контакти — і ми підготуємо пропозицію для вашого замовлення.</p></div>
+    </section>
+    <section class="cart-main">
+      <div class="container cart-layout">
+        <div><div class="eyebrow">Обрані продукти</div><h2 class="cart-section-title">Ваш комплект</h2><div id="cart-lines" class="cart-lines" aria-live="polite"></div><div id="cart-summary" class="cart-summary" aria-live="polite"></div><a href="products.html" class="btn btn-gold">Додати ще продукцію</a></div>
+        <aside class="quote-panel" aria-labelledby="quote-title"><div class="eyebrow">Ваш запит</div><h2 id="quote-title">Отримати пропозицію</h2><p>Перевірте кількість, розміри й вишивку та відправте склад комплекту просто звідси.</p>
+          <form id="quote-form" class="quote-form">
+            <label>Організація або об’єкт<input name="company" autocomplete="organization" placeholder="Назва компанії"></label>
+            <label>Телефон<input name="phone" type="tel" autocomplete="tel" required placeholder="+380 ..."></label>
+            <label>Додатково (необов’язково)<textarea name="details" placeholder="Терміни, побажання або особливості замовлення"></textarea></label>
+            <label>Фото вишивки або логотипа (за потреби)<input name="attachments[]" type="file" accept=".jpg,.jpeg,.png,.webp,.pdf,.svg" multiple></label>
+            <button class="btn btn-gold" type="submit">Відправити ↗</button>
+            <p id="quote-status" class="quote-note" role="status" hidden></p>
+          </form>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="logo" href="index.html">SAFFRAN<small>HOSPITALITY TEXTILES</small></a><p>Професійний текстиль для готелів, SPA, басейнів та просторів індустрії гостинності.</p></div><div><div class="footer-title">Продукція</div><div class="footer-links"><a href="products.html">Усі категорії</a><a href="product-towels.html">Рушники</a><a href="product-bed-linen.html">Постільна білизна</a><a href="product-robes.html">Халати</a></div></div><div><div class="footer-title">Контакти</div><div class="footer-links"><a href="tel:+380673289747">+380 (67) 328-97-47</a><a href="mailto:sales@saffran.sk">sales@saffran.sk</a><a href="index.html#contacts">Запит пропозиції</a></div></div></div><div class="footer-bottom"><span>© 2026 SAFFRAN</span><span>Професійний текстиль для HoReCa</span></div></div></footer>
+  <script>const h=document.querySelector('.site-header'),t=document.querySelector('.menu-toggle');const sh=()=>h.classList.toggle('scrolled',scrollY>25);addEventListener('scroll',sh,{passive:true});sh();t.addEventListener('click',()=>{const o=h.classList.toggle('open');t.setAttribute('aria-expanded',String(o))});</script>
+  <script src="cart.js?v=20261026e" defer></script>
+<script src="ui-refinements.js?v=20261028a" defer></script></body>
+</html>

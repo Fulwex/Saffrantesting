@@ -1,0 +1,14 @@
+/* A quieter, denser collection view. */
+.catalog-page .catalog{padding:20px 0 90px}
+.catalog-page .catalog-grid{gap:15px}
+.catalog-page .catalog-card,.catalog-page .catalog-card.wide{min-height:350px;padding:24px}
+.catalog-page .catalog-card small{display:none}
+.catalog-page .catalog-card p{display:none}
+.catalog-page .catalog-card h2{margin:0 0 12px;font-size:clamp(1.8rem,2.5vw,2.7rem)}
+@media(max-width:760px){
+ .catalog-page .catalog{padding-bottom:65px}
+ .catalog-page .catalog-grid{gap:11px}
+ .catalog-page .catalog-card,.catalog-page .catalog-card.wide{min-height:270px;padding:18px}
+ .catalog-page .catalog-card h2{font-size:clamp(1.45rem,4.5vw,2rem)}
+}
+@media(max-width:430px){.catalog-page .catalog-card,.catalog-page .catalog-card.wide{min-height:220px;padding:14px}.catalog-page .catalog-card h2{font-size:1.28rem}}

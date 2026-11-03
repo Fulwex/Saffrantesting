@@ -1,0 +1,102 @@
+/* Version 2: editorial image treatment. The original homepage remains untouched. */
+.about-years video{
+  display:block;width:100%;height:100%;position:absolute;inset:0;
+  object-fit:cover;object-position:center center;
+  filter:saturate(.88) contrast(1.04);
+}
+.about-years::after{
+  background:linear-gradient(0deg,rgba(8,16,32,.96) 0%,rgba(8,16,32,.35) 40%,rgba(8,16,32,.08) 75%);
+}
+.about-years figcaption span{color:#f4efe5;text-shadow:0 2px 12px rgba(0,0,0,.7)}
+.about-years figcaption.about-founded{grid-template-columns:1fr;gap:23px}.about-years .about-founded strong{font-size:clamp(5rem,7vw,8rem)}.about-years .about-founded span{max-width:270px}
+.capability::after{
+  background:linear-gradient(0deg,rgba(8,17,33,.97) 0%,rgba(8,17,33,.78) 29%,rgba(8,17,33,.12) 78%);
+}
+.capability:hover::after{
+  background:linear-gradient(0deg,rgba(8,17,33,.98) 0%,rgba(8,17,33,.79) 30%,rgba(8,17,33,.08) 82%);
+}
+.about-intro{font-size:clamp(1.15rem,1.45vw,1.55rem);line-height:1.23}
+.capability h3{max-width:500px;margin-bottom:0;font-size:clamp(1.8rem,2.35vw,2.7rem);line-height:1.02;text-wrap:balance}
+.capability-main .capability-media{object-position:center 70%;filter:saturate(.94)}
+.capability-main h3{max-width:580px;font-size:clamp(2.1rem,3.1vw,3.5rem)}
+.capability-accent .capability-media{object-position:center 69%}
+.capability-texture .capability-media{object-position:center 48%}
+.capability-texture h3{font-size:clamp(1.75rem,2.25vw,2.6rem)}
+
+.direction-main img,.direction-detail img,.direction-third img{width:100%;height:100%;object-fit:cover}
+.direction-hotel .direction-main img{object-position:center 48%}
+.direction-hotel .direction-detail img{object-position:center 34%}
+.direction-spa .direction-detail img{object-position:center 45%}
+.direction-third{
+  position:absolute;z-index:2;top:3%;right:0;width:28%;height:27%;
+  overflow:hidden;border:8px solid var(--navy);
+  box-shadow:0 20px 55px rgba(4,10,25,.3);
+}
+.direction-third img{object-position:center 56%;transition:transform .8s ease}
+.direction:hover .direction-third img{transform:scale(1.06)}
+.direction-hotel .direction-detail{z-index:3}
+.direction-hotel .direction-third{width:38%;height:38%;top:2%;border-width:9px}
+.direction-hotel .direction-third img{object-position:center 72%}
+.direction-spa .direction-main img{object-position:center 45%}
+.direction-spa .direction-detail{left:0;right:auto;bottom:-2%;width:39%;height:54%}
+.direction-spa .direction-detail img{object-position:center 65%}
+.direction-spa .direction-third{right:auto;left:0;width:31%;height:29%;border-color:#dacbbb}
+.direction-spa .direction-third img{object-position:center}
+.direction-spa .direction-number{left:auto;right:4%}
+.direction-spa .direction-detail{z-index:3}
+
+.product-card:nth-child(n+3) .image{height:420px}
+.product-card .image{background:#d7d1c6}
+.product-card img{object-position:center}
+.product-card:nth-child(2) img{object-position:center 40%}
+.product-card:nth-child(3) img{object-position:center 51%}
+.product-card:nth-child(5) img,.product-card:nth-child(6) img{object-position:center 50%}
+.product-card:nth-child(7) img{object-position:center 52%}
+.product-card{cursor:pointer}
+.product-card .image{isolation:isolate}
+.product-card .image::after{z-index:1;background:linear-gradient(0deg,rgba(11,20,36,.38),transparent 36%);opacity:1}
+.product-card:hover .image::after,.product-card:focus-visible .image::after{background:linear-gradient(0deg,rgba(11,20,36,.5),transparent 54%)}
+.product-card:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+.product-card:hover .product-meta,.product-card:focus-visible .product-meta{border-color:#a87c38}
+.product-card:hover .product-meta h3,.product-card:focus-visible .product-meta h3{color:#a47532}
+.product-meta{position:relative;padding-right:36px}
+.product-meta::after{content:"↗";position:absolute;right:2px;top:50%;transform:translateY(-50%);font:400 1.45rem/1 var(--serif);color:#a47532;transition:transform .25s}
+.product-card:hover .product-meta::after,.product-card:focus-visible .product-meta::after{transform:translate(3px,-60%)}
+.proposal{background:var(--navy)}
+.proposal::before{background:linear-gradient(90deg,rgba(10,21,43,.99) 0%,rgba(12,26,50,.95) 55%,rgba(12,26,50,.7)),url('assets/sheets.jpg') right center/55% 100% no-repeat}
+.proposal-page-link{display:inline-flex;gap:13px;align-items:center;margin-top:15px;padding-bottom:5px;border-bottom:1px solid var(--gold);color:var(--gold-2);font-size:.7rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.proposal-page-link:hover{color:#fff}
+.linen-feature .image{background:#ded9ce}
+.linen-feature .image img{width:100%;height:100%;object-position:center 64%}
+.product-card:nth-child(2) img{object-position:center 50%;filter:contrast(1.06)}
+.product-card:nth-child(3) img{object-position:center 49%}
+.product-card:nth-child(7) img{object-position:center 58%}
+.proposal::after{content:"SAFFRAN";font-size:clamp(6rem,15vw,15rem);top:8%;right:-4%}
+
+@media(max-width:760px){
+  .about-years video{object-position:center}
+  .direction-third{width:30%;height:25%;border-width:6px}
+  .direction-hotel .direction-third{width:36%;height:34%;border-width:7px}
+  .direction-spa .direction-detail{width:42%;height:51%;left:0;right:auto}
+  .direction-spa .direction-third{width:34%;height:28%}
+  .direction-spa .direction-number{right:5%}
+  .product-card .image,.product-card.wide .image,.product-card:nth-child(n+3) .image{height:260px}
+}
+@media(max-width:480px){
+  .direction-third{border-width:5px}
+  .direction-hotel .direction-third{width:38%;height:31%;border-width:6px}
+  .direction-spa .direction-detail{width:47%;height:50%;left:0;right:auto}
+  .direction-spa .direction-third{width:36%;height:27%}
+  .products{padding:72px 0 88px}
+  .products-head{gap:13px;margin-bottom:30px}
+  .products-head h2{font-size:clamp(2.8rem,11vw,3.8rem)}
+  .products-head p{font-size:.84rem}
+  .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}
+  .product-card,.product-card.wide,.product-card.slim{min-width:0;grid-column:auto}
+  .product-card .image,.product-card.wide .image,.product-card:nth-child(n+3) .image{height:clamp(154px,47vw,210px)}
+  .product-meta{display:block;padding:10px 2px 12px}
+  .product-meta h3{font-size:clamp(1.05rem,4.2vw,1.3rem);line-height:1.04}
+  .product-meta{padding-right:24px}
+  .products-action{margin-top:35px}
+}
+.price-aside{background:#182946}

@@ -1,0 +1,14 @@
+/* Home captions and direction compositions, tuned for laptop viewports. */
+.brand-home .capability h3{font-size:clamp(1.02rem,1.18vw,1.24rem);line-height:1.18;max-width:19em}
+.brand-home .capability-main h3{font-size:clamp(1.27rem,1.55vw,1.65rem)}
+
+@media (min-width:761px){
+  .brand-home .direction,
+  .brand-home .direction-grid{min-height:clamp(620px,calc(100svh - 64px),750px)}
+  .brand-home .direction-visual{height:clamp(490px,calc(100svh - 176px),625px)}
+}
+
+@media (max-width:760px){
+  .brand-home .capability h3{font-size:clamp(.96rem,3.8vw,1.17rem)}
+  .brand-home .capability-main h3{font-size:clamp(1.22rem,4.6vw,1.55rem)}
+}

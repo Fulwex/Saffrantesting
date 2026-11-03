@@ -1,0 +1,165 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run sync && npm run build",
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "git": {
+    "deploymentEnabled": {
+      "main": false
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow, noarchive"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/about-us/",
+      "destination": "/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact-us/",
+      "destination": "/#footer-contacts",
+      "statusCode": 301
+    },
+    {
+      "source": "/catalog/",
+      "destination": "/products",
+      "statusCode": 301
+    },
+    {
+      "source": "/shop/",
+      "destination": "/products",
+      "statusCode": 301
+    },
+    {
+      "source": "/pro-kompaniyu/",
+      "destination": "/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/kontakti/",
+      "destination": "/#footer-contacts",
+      "statusCode": 301
+    },
+    {
+      "source": "/partneram/",
+      "destination": "/proposal",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-nas/",
+      "destination": "/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/horeca/",
+      "destination": "/hotel-textile",
+      "statusCode": 301
+    },
+    {
+      "source": "/optovym-pokupatelyam/",
+      "destination": "/proposal",
+      "statusCode": 301
+    },
+    {
+      "source": "/dlya-horeca/",
+      "destination": "/hotel-textile",
+      "statusCode": 301
+    },
+    {
+      "source": "/individualnye-uslugi/",
+      "destination": "/proposal",
+      "statusCode": 301
+    },
+    {
+      "source": "/korporativnym-klientam/",
+      "destination": "/proposal",
+      "statusCode": 301
+    },
+    {
+      "source": "/chomu-perkal/",
+      "destination": "/product-bed-linen",
+      "statusCode": 301
+    },
+    {
+      "source": "/navishho-potribni-gotelni-kaptsi-i-chy-mozhna-bez-nyh-obijtysya/",
+      "destination": "/product-slippers",
+      "statusCode": 301
+    },
+    {
+      "source": "/chomu-vazhlyvo-vykorystovuvaty-yakisni-gotelni-kaptsi/",
+      "destination": "/product-slippers",
+      "statusCode": 301
+    },
+    {
+      "source": "/chym-vidriznyayutsya-gotelni-rushnyky-vid-zvychajnyh/",
+      "destination": "/product-towels",
+      "statusCode": 301
+    },
+    {
+      "source": "/chym-vidriznyayutsya-halaty-dlya-goteliv-ta-yakyh-rozmiriv-vony-buvayut/",
+      "destination": "/product-robes",
+      "statusCode": 301
+    },
+    {
+      "source": "/gotelni-podushky-ta-yih-vidminnosti/",
+      "destination": "/product-pillows",
+      "statusCode": 301
+    },
+    {
+      "source": "/rol-suchasnyh-kovdr-u-gostynnosti-goteliv/",
+      "destination": "/product-duvets",
+      "statusCode": 301
+    },
+    {
+      "source": "/tapochky-dlya-goteliv-duzhe-vazhlyvyj-atrybut-komfortu/",
+      "destination": "/product-slippers",
+      "statusCode": 301
+    },
+    {
+      "source": "/suchasni-podushky-dlya-goteliv-osnovni-vydy-perevagy/",
+      "destination": "/product-pillows",
+      "statusCode": 301
+    },
+    {
+      "source": "/shho-soboyu-predstavlyayut-rannery-na-stil-dlya-chogo-vony-potribni/",
+      "destination": "/product-table-textiles",
+      "statusCode": 301
+    },
+    {
+      "source": "/yak-obraty-yakisni-skatertyny-dlya-restoranu/",
+      "destination": "/product-table-textiles",
+      "statusCode": 301
+    },
+    {
+      "source": "/yak-vybraty-kovdru-dlya-gotelyu/",
+      "destination": "/product-duvets",
+      "statusCode": 301
+    },
+    {
+      "source": "/yak-obraty-kaptsi-u-gotel/",
+      "destination": "/product-slippers",
+      "statusCode": 301
+    },
+    {
+      "source": "/spa-yak-neobhidnist/",
+      "destination": "/spa-textile",
+      "statusCode": 301
+    }
+  ]
+}
